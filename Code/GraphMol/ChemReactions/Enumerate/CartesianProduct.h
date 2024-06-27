@@ -113,7 +113,7 @@ class RDKIT_CHEMREACTIONS_EXPORT CartesianProductStrategy
   bool hasNext() const {
     // Fix me -> use multiprecision int here???
     return m_numPermutations == EnumerationStrategyBase::EnumerationOverflow ||
-           m_numPermutationsProcessed < rdcast<size_t>(m_numPermutations);
+           m_numPermutationsProcessed<rdcast<size_t>(m_numPermutations);
   }
 
   void next(size_t rowToIncrement) {
@@ -145,3 +145,4 @@ BOOST_CLASS_VERSION(RDKit::CartesianProductStrategy, 1)
 #endif
 
 #endif
+
