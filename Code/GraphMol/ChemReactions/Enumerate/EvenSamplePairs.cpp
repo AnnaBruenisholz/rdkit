@@ -204,7 +204,7 @@ const RGROUPS &EvenSamplePairsStrategy::next() {
   while (m_numPermutationsProcessed <
          rdcast<boost::uint64_t>(m_numPermutations)) {
     for (boost::uint64_t l = 0; l < M; ++l) {
-      seed = (seed * a + b) % M;
+      seed = ((seed * a + b) % M);
       if (seed > rdcast<boost::uint64_t>(m_numPermutations)) {
         rejected_period += 1;
         continue;
@@ -241,7 +241,7 @@ std::string EvenSamplePairsStrategy::stats() const {
       maxcount = std::max(maxcount, var_used[i][j]);
     }
     ss << boost::format("%lu\t%lu\t%6.2f") % (i + 1) % nvars[i] %
-              ((double)m_numPermutationsProcessed / nvars[i]);
+              (static_cast<double>(m_numPermutationsProcessed) / nvars[i]);
 
     for (l = 0; l <= maxcount; l++) {
       boost::uint64_t n = 0;
@@ -274,12 +274,11 @@ std::string EvenSamplePairsStrategy::stats() const {
       for (ii = 0; ii < nvars[i]; ii++) {
         for (jj = 0; jj < nvars[j]; jj++) {
 	  maxcount = std::max(maxcount, pair_used[ii + ioffset][jj + joffset]);
-          }
         }
       }
       ss << boost::format("%lu\t%lu\t%lu\t%lu\t%6.2f") % (i + 1) % (j + 1) %
                 nvars[i] % nvars[j] %
-                ((double)m_numPermutationsProcessed / (nvars[i] * nvars[j]));
+                (static_cast<double>(m_numPermutationsProcessed) / (nvars[i] * nvars[j]));
       for (l = 0; l <= maxcount; l++) {
         int n = 0;
         for (ii = 0; ii < nvars[i]; ii++) {
