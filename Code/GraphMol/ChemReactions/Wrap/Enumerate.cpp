@@ -47,7 +47,7 @@ std::vector<RDKit::MOL_SPTR_VECT> ConvertToVect(T bbs) {
   std::vector<RDKit::MOL_SPTR_VECT> vect;
   size_t num_bbs = python::extract<unsigned int>(bbs.attr("__len__")());
   vect.resize(num_bbs);
-  for (size_t i = 0; i < num_bbs; ++i) {
+  for (unsigned int i = 0; i < num_bbs; ++i) {
     unsigned int len1 = python::extract<unsigned int>(bbs[i].attr("__len__")());
     RDKit::MOL_SPTR_VECT &reacts = vect[i];
     reacts.reserve(len1);
