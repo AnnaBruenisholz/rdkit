@@ -307,8 +307,7 @@ ChemicalReaction *ReactionFromSmarts(const char *smarts, python::dict replDict,
     replacements[python::extract<std::string>(replDict.keys()[i])] =
         python::extract<std::string>(replDict.values()[i]);
   }
-  ChemicalReaction *res;
-  res = RxnSmartsToChemicalReaction(smarts, &replacements, useSmiles);
+  ChemicalReaction *res = RxnSmartsToChemicalReaction(smarts, &replacements, useSmiles);
   return res;
 }
 
@@ -1013,8 +1012,8 @@ of the replacements argument.",
       python::return_value_policy<python::manage_new_object>());
 
   docString =
-      R"DOC(Compute 2D coordinates for a reaction. 
-  ARGUMENTS: 
+      R"DOC(Compute 2D coordinates for a reaction.
+  ARGUMENTS:
      - reaction - the reaction of interest
      - spacing - the amount of space left between components of the reaction
      - canonOrient - orient the reactants and products in a canonical way
@@ -1027,7 +1026,7 @@ of the replacements argument.",
      - nSample - Number of random samplings of rotatable bonds.
      - sampleSeed - seed for the random sampling process.
      - permuteDeg4Nodes - allow permutation of bonds at a degree 4
-                 node during the sampling process 
+                 node during the sampling process
      - bondLength - change the default bond length for depiction
 )DOC";
   python::def(
@@ -1110,7 +1109,7 @@ of the replacements argument.",
       R"DOC(A function for preprocessing reactions with more specific queries.
 Queries are indicated by labels on atoms (molFileAlias property by default)
 When these labels are found, more specific queries are placed on the atoms.
-By default, the available quieries come from 
+By default, the available quieries come from
   FilterCatalog.GetFlattenedFunctionalGroupHierarchy(True)n
 Sample Usage:
   >>> from rdkit import Chem, RDConfig
@@ -1140,7 +1139,7 @@ see this here:
   >>> r1 = rxn.GetReactantTemplate(0)
   >>> m1 = Chem.MolFromSmiles('CCBr')
   >>> m2 = Chem.MolFromSmiles('c1ccccc1Br')
-  
+
 These both match because the reaction file itself just has R1-Br:
   >>> m1.HasSubstructMatch(r1)
   True
@@ -1249,11 +1248,11 @@ One unrecognized group type in a comma-separated list makes the whole thing fail
       these should be constructed by or'ing together the
       operations in rdkit.Chem.rdChemReactions.SanitizeFlags
     - optional adjustment parameters for changing the meaning of the substructure
-      matching done in the templates.  The default is 
+      matching done in the templates.  The default is
       rdkit.Chem.rdChemReactions.DefaultRxnAdjustParams which aromatizes
       kekule structures if possible.
     - catchErrors: (optional) if provided, instead of raising an exception
-      when sanitization fails (the default behavior), the 
+      when sanitization fails (the default behavior), the
       first operation that failed (as defined in rdkit.Chem.rdChemReactions.SanitizeFlags)
       is returned. Zero is returned on success.
 
