@@ -75,8 +75,8 @@ template <class T>
 EnumerationTypes::RGROUPS getSizesFromBBs(
     const std::vector<std::vector<T>> &bbs) {
   EnumerationTypes::RGROUPS sizes;
-  for (size_t i = 0; i < bbs.size(); ++i) {
-    sizes.push_back(bbs[i].size());
+  for ( const auto &bbss : bbs) {
+	  sizes.push_back(bbss.size());
   }
   return sizes;
 }
@@ -225,3 +225,4 @@ BOOST_CLASS_VERSION(RDKit::EnumerationStrategyBase, 1)
 #endif
 
 #endif
+
