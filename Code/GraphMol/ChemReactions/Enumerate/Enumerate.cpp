@@ -125,10 +125,10 @@ BBS removeNonmatchingReagents(const ChemicalReaction &rxn, BBS bbs,
             ? 0
             : rdcast<unsigned int>(params.reagentMaxMatchCount);
 
-    auto reactantTemplate = rxn.getReactants()[reactant_idx];
+    ROMOL_SPTR reactantTemplate = rxn.getReactants()[reactant_idx];
     for (size_t reagent_idx = 0; reagent_idx < bbs[reactant_idx].size();
          ++reagent_idx) {
-      auto mol = bbs[reactant_idx][reagent_idx];
+      ROMOL_SPTR mol = bbs[reactant_idx][reagent_idx];
       size_t matches =
           countMatches(*mol.get(), *reactantTemplate.get(), maxMatches);
 
