@@ -33,11 +33,10 @@ import doctest
 import importlib.util
 import os
 import pickle
-import sys
 import unittest
 import tempfile
 
-from rdkit import Chem, Geometry, RDConfig, rdBase
+from rdkit import Chem, RDConfig
 from rdkit.Chem import AllChem, rdChemReactions
 from rdkit.Chem.SimpleEnum import Enumerator
 
@@ -725,7 +724,7 @@ M  END
 
   def testGitHub1868(self):
     fileN = os.path.join(self.dataDir, 'v3k.AmideBond.rxn')
-    for i in range(100):
+    for _ in range(100):
       _rxn = rdChemReactions.ReactionFromRxnFile(fileN)
       _rxn.Initialize()
       _reacts = [Chem.MolToSmarts(r) for r in _rxn.GetReactants()]
@@ -798,7 +797,7 @@ def _getProductCXSMILES(product):
 
 def _reactAndSummarize(rxn_smarts, *smiles):
   """
-  Run a reaction and combine the products in a single string.  
+  Run a reaction and combine the products in a single string.
 
   Makes errors readable ish
   """
@@ -879,7 +878,7 @@ class StereoGroupTests(unittest.TestCase):
     """
     StereoGroup atoms are in the reaction, and the reaction creates the specified
     chirality at the stereo centers
-    -> remove the stereo center from 
+    -> remove the stereo center from
     -> invalidate stereo group
     """
     products = _reactAndSummarize('[C:1]>>[C@@:1]', 'F[C@H](Cl)Br |o1:1|')
