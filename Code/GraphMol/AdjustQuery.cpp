@@ -21,6 +21,7 @@
 #include <boost/algorithm/string.hpp>
 #include <boost/tokenizer.hpp>
 #include <RDGeneral/BoostEndInclude.h>
+#include "Bond.h"
 
 #include <vector>
 #include <algorithm>
@@ -96,7 +97,7 @@ void adjustConjugatedFiveRings(RWMol &mol) {
       continue;
     }
     // now make the adjustments
-    QueryBond qb;
+    Bond qb;
     qb.setQuery(makeSingleOrDoubleOrAromaticBondQuery());
     for (auto bi : ring) {
       const auto bond = mol.getBondWithIdx(bi);
@@ -132,7 +133,7 @@ void adjustSingleBondsFromAromaticAtoms(RWMol &mol, bool toDegreeOneNeighbors,
   if (!toDegreeOneNeighbors && !betweenAromaticAtoms) {
     return;
   }
-  QueryBond qb;
+  Bond qb;
   qb.setQuery(makeSingleOrAromaticBondQuery());
   if (!mol.getRingInfo()->isSymmSssr()) {
     MolOps::symmetrizeSSSR(mol);
@@ -232,7 +233,7 @@ void setMDLAromaticity(RWMol &mol) {
       ASSERT_INVARIANT(l1.size() == 2, "bad layer 1 size");
       ASSERT_INVARIANT(l2.size() == 2, "bad layer 2 size");
 
-      QueryBond qbSingleAromatic;
+      Bond qbSingleAromatic;
       {
         BOND_OR_QUERY *q = new BOND_OR_QUERY;
         q->addChild(QueryBond::QUERYBOND_QUERY::CHILD_TYPE(

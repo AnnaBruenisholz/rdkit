@@ -616,8 +616,7 @@ namespace RDKit {
 namespace MolOps {
 bool isBondOrderQuery(const Bond *bond) {
   if (bond->getBondType() == Bond::BondType::UNSPECIFIED && bond->hasQuery()) {
-    auto label =
-        dynamic_cast<const QueryBond *>(bond)->getQuery()->getTypeLabel();
+    auto label = bond->getQuery()->getTypeLabel();
     if (label == "BondOrder") {
       return true;
     }

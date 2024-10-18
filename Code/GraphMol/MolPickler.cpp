@@ -2041,7 +2041,7 @@ void MolPickler::_pickleBond(std::ostream &ss, const Bond *bond,
   }
   if (bond->hasQuery()) {
     streamWrite(ss, BEGINQUERY);
-    pickleQuery(ss, static_cast<const QueryBond *>(bond)->getQuery());
+    pickleQuery(ss, bond->getQuery());
     streamWrite(ss, ENDQUERY);
   }
   if (!endpts.empty()) {
