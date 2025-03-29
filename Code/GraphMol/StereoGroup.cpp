@@ -24,7 +24,7 @@ void storeIdsInUse(boost::dynamic_bitset<> &ids, StereoGroup &sg) {
     // This id is duplicate, let's reset it so we can reassign it later
     BOOST_LOG(rdWarningLog)
         << "StereoGroup ID " << groupId
-        << " is used by more than one group, and will be reassined"
+        << " is used by more than one group, and will be reassigned"
         << std::endl;
     sg.setWriteId(0);
   } else {
