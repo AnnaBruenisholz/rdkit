@@ -383,7 +383,8 @@ void RWMol::removeAtom(Atom *atom, bool clearProps) {
   }
 
   // loop over all atoms with higher indices and update their indices
-  for (unsigned int i = idx + 1; i < getNumAtoms(); i++) {
+  unsigned int numAtoms = getNumAtoms();
+  for (unsigned int i = idx + 1; i < numAtoms; i++) {
     Atom *higher_index_atom = getAtomWithIdx(i);
     higher_index_atom->setIdx(i - 1);
   }
@@ -391,14 +392,10 @@ void RWMol::removeAtom(Atom *atom, bool clearProps) {
   // do the same with the coordinates in the conformations
   for (auto conf : d_confs) {
     RDGeom::POINT3D_VECT &positions = conf->getPositions();
-    auto pi = positions.begin();
-    for (unsigned int i = 0; i < getNumAtoms() - 1; i++) {
-      ++pi;
-      if (i >= idx) {
-        positions[i] = positions[i + 1];
-      }
+    for (unsigned int i = idx; i < numAtoms - 1; i++) {
+      positions[i] = positions[i + 1];
     }
-    positions.erase(pi);
+    positions.erase(positions.begin() + numAtoms - 1);
   }
   // now deal with bonds:
   //   their end indices may need to be decremented and their
