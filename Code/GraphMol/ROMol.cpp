@@ -88,7 +88,9 @@ void ROMol::initFromOther(const ROMol &other, bool quickCopy, int confId) {
   }
 
   // and the bonds:
-  std::ranges::for_each(other.bonds(), [this](const auto& obond) { addBond(obond->copy(), true); });
+  std::ranges::for_each(other.bonds(), [this](const auto &obond) {
+    addBond(obond->copy(), true);
+  });
 
   // ring information
   delete dp_ringInfo;
@@ -134,7 +136,9 @@ void ROMol::initFromOther(const ROMol &other, bool quickCopy, int confId) {
     }
 
     // Copy sgroups
-    std::ranges::for_each(getSubstanceGroups(other), [this](const auto& sg) { addSubstanceGroup(*this, sg); });
+    std::ranges::for_each(getSubstanceGroups(other), [this](const auto &sg) {
+      addSubstanceGroup(*this, sg);
+    });
 
     d_props = other.d_props;
 
@@ -509,7 +513,10 @@ ROMol::ConstHeteroatomIterator ROMol::endHeteros() const {
 }
 
 bool ROMol::hasQuery() const {
- 	return std::ranges::any_of(atoms(), [](const auto& atom) { return atom->hasQuery(); }) || std::ranges::any_of(bonds(), [](const auto& bond) { return bond->hasQuery(); });
+  return std::ranges::any_of(
+             atoms(), [](const auto &atom) { return atom->hasQuery(); }) ||
+         std::ranges::any_of(bonds(),
+                             [](const auto &bond) { return bond->hasQuery(); });
 }
 
 ROMol::QueryAtomIterator ROMol::beginQueryAtoms(QueryAtom const *what) {
@@ -560,18 +567,24 @@ void ROMol::clearComputedProps(bool includeRings) const {
 
   RDProps::clearComputedProps();
 
-  std::ranges::for_each(atoms(), [](auto& atom) { atom->clearComputedProps(); });
-  std::ranges::for_each(bonds(), [](auto& bond) { bond->clearComputedProps(); });
+  std::ranges::for_each(atoms(),
+                        [](auto &atom) { atom->clearComputedProps(); });
+  std::ranges::for_each(bonds(),
+                        [](auto &bond) { bond->clearComputedProps(); });
 }
 
 void ROMol::updatePropertyCache(bool strict) {
-  std::ranges::for_each(atoms(), [](auto& atom) { atom->updatePropertyCache(strict); });
-  std::ranges::for_each(bonds(), [](auto& bond) { bond->updatePropertyCache(strict); });
+  std::ranges::for_each(atoms(),
+                        [](auto &atom) { atom->updatePropertyCache(strict); });
+  std::ranges::for_each(bonds(),
+                        [](auto &bond) { bond->updatePropertyCache(strict); });
 }
 
 bool ROMol::needsUpdatePropertyCache() const {
   // there is no test for bonds yet since they do not obtain a valence property
-  return std::ranges::any_of(atoms(), [](const auto& atom) {return atom->needsUpdatePropertyCache(); });
+  return std::ranges::any_of(atoms(), [](const auto &atom) {
+    return atom->needsUpdatePropertyCache();
+  });
 }
 
 const Conformer &ROMol::getConformer(int id) const {
