@@ -81,11 +81,9 @@ void ROMol::initFromOther(const ROMol &other, bool quickCopy, int confId) {
   numBonds = 0;
   // std::cerr<<"    init from other: "<<this<<" "<<&other<<std::endl;
   // copy over the atoms
-  for (const auto oatom : other.atoms()) {
-    constexpr bool updateLabel = false;
-    constexpr bool takeOwnership = true;
-    addAtom(oatom->copy(), updateLabel, takeOwnership);
-  }
+  std::ranges::for_each(other.atoms(), [this](const auto &oatom) {
+    addAtom(oatom->copy(), updateLabel = false, takeOwnership = true);
+  });
 
   // and the bonds:
   std::ranges::for_each(other.bonds(), [this](const auto &obond) {
