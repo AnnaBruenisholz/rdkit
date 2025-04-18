@@ -23,6 +23,7 @@
 #include <iterator>
 #include <utility>
 #include <map>
+#include <algorithm>
 
 // boost stuff
 #include <RDGeneral/BoostStartInclude.h>
@@ -882,3 +883,4 @@ typedef MOL_PTR_VECT::iterator MOL_PTR_VECT_I;
 
 };  // namespace RDKit
 #endif
+
