@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_NONBONDED_H__
-#define __RD_NONBONDED_H__
+#ifndef RD_NONBONDED_H
+#define RD_NONBONDED_H
 #include <ForceField/Contrib.h>
 
 namespace ForceFields {

@@ -14,8 +14,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_CONNECTIVITYDESCRIPTORS_H__
-#define __RD_CONNECTIVITYDESCRIPTORS_H__
+#ifndef RD_CONNECTIVITYDESCRIPTORS_H
+#define RD_CONNECTIVITYDESCRIPTORS_H
 
 #include <string>
 #include <vector>

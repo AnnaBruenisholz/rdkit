@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_FORCEFIELD_H__
-#define __RD_FORCEFIELD_H__
+#ifndef RD_FORCEFIELD_H
+#define RD_FORCEFIELD_H
 
 #include <vector>
 #include <boost/smart_ptr.hpp>

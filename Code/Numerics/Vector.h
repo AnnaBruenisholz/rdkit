@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_VECTOR_H__
-#define __RD_VECTOR_H__
+#ifndef RD_VECTOR_H
+#define RD_VECTOR_H
 
 #include <RDGeneral/Invariant.h>
 #include <RDGeneral/utils.h>

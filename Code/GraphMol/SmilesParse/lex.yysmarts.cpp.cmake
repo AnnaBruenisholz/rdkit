@@ -369,7 +369,7 @@ typedef void* yyscan_t;
 
 /* Size of default input buffer. */
 #ifndef YY_BUF_SIZE
-#ifdef __ia64__
+#ifdef ia64
 /* On IA-64, the buffer size is 16k, not 8k.
  * Moreover, YY_BUF_SIZE is 2*YY_READ_BUF_SIZE in the general case.
  * Ditto for the __ia64__ case accordingly.
@@ -1020,7 +1020,7 @@ static int input ( yyscan_t yyscanner );
     
 /* Amount of stuff to slurp up with each read. */
 #ifndef YY_READ_BUF_SIZE
-#ifdef __ia64__
+#ifdef ia64
 /* On IA-64, the buffer size is 16k, not 8k */
 #define YY_READ_BUF_SIZE 16384
 #else

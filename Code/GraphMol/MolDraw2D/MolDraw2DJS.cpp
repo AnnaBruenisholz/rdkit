@@ -9,7 +9,7 @@
 //
 //
 
-#ifdef __EMSCRIPTEN__
+#ifdef EMSCRIPTEN
 
 #include <GraphMol/MolDraw2D/MolDraw2DJS.h>
 #include <GraphMol/MolDraw2D/MolDraw2DDetails.h>

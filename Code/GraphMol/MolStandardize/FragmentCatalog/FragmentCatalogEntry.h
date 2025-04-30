@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_FRAGMENT_CATALOG_ENTRY_H__
-#define __RD_FRAGMENT_CATALOG_ENTRY_H__
+#ifndef RD_FRAGMENT_CATALOG_ENTRY_H
+#define RD_FRAGMENT_CATALOG_ENTRY_H
 
 #include <Catalogs/CatalogEntry.h>
 #include <GraphMol/Subgraphs/Subgraphs.h>

@@ -10,8 +10,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_INVARIANT_H__
-#define __RD_INVARIANT_H__
+#ifndef RD_INVARIANT_H
+#define RD_INVARIANT_H
 
 #include <cassert>
 #include <string>

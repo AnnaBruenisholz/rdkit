@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __CHEMICALFEATURE_H_11012005_1310__
-#define __CHEMICALFEATURE_H_11012005_1310__
+#ifndef CHEMICALFEATURE_H_11012005_1310
+#define CHEMICALFEATURE_H_11012005_1310
 
 #include <Geometry/point.h>
 namespace ChemicalFeatures {

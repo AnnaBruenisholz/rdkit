@@ -9,8 +9,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_METRICMATRIXCAL_H__
-#define __RD_METRICMATRIXCAL_H__
+#ifndef RD_METRICMATRIXCAL_H
+#define RD_METRICMATRIXCAL_H
 
 #include "MetricFuncs.h"
 #include <RDGeneral/Invariant.h>

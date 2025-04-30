@@ -36,8 +36,8 @@
   \brief Contains functionality to load conformers from a MD trajectory
 
 */
-#ifndef __RD_ConformerParser_H__
-#define __RD_ConformerParser_H__
+#ifndef RD_ConformerParser_H
+#define RD_ConformerParser_H
 
 #include <sstream>
 

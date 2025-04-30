@@ -7,8 +7,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_MMFFNONBONDED_H__
-#define __RD_MMFFNONBONDED_H__
+#ifndef RD_MMFFNONBONDED_H
+#define RD_MMFFNONBONDED_H
 #include <ForceField/Contrib.h>
 #include <GraphMol/RDKitBase.h>
 #include <GraphMol/ForceFieldHelpers/MMFF/AtomTyper.h>

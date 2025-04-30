@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_TORSIONANGLE_H__
-#define __RD_TORSIONANGLE_H__
+#ifndef RD_TORSIONANGLE_H
+#define RD_TORSIONANGLE_H
 
 #include <ForceField/Contrib.h>
 #include <Geometry/point.h>

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __FEATUREPARSER_H_02122004_1810__
-#define __FEATUREPARSER_H_02122004_1810__
+#ifndef FEATUREPARSER_H_02122004_1810
+#define FEATUREPARSER_H_02122004_1810
 
 #include <iostream>
 #include <string>

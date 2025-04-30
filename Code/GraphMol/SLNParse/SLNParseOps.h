@@ -32,8 +32,8 @@
 // Created by Greg Landrum, September 2006
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_SLNPARSEOPS_H__
-#define __RD_SLNPARSEOPS_H__
+#ifndef RD_SLNPARSEOPS_H
+#define RD_SLNPARSEOPS_H
 
 #include <vector>
 #include <GraphMol/SLNParse/SLNParse.h>

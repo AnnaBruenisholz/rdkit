@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __FEATURE_H_30112004_1121__
-#define __FEATURE_H_30112004_1121__
+#ifndef FEATURE_H_30112004_1121
+#define FEATURE_H_30112004_1121
 
 #include <vector>
 #include <Geometry/point.h>

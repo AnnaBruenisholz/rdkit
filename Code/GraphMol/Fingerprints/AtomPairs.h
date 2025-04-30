@@ -30,8 +30,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_ATOMPAIRS_H__
-#define __RD_ATOMPAIRS_H__
+#ifndef RD_ATOMPAIRS_H
+#define RD_ATOMPAIRS_H
 
 #include <DataStructs/SparseIntVect.h>
 #include <DataStructs/BitVects.h>

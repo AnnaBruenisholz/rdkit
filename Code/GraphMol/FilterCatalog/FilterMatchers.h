@@ -30,8 +30,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_FILTER_MATCHER_H__
-#define __RD_FILTER_MATCHER_H__
+#ifndef RD_FILTER_MATCHER_H
+#define RD_FILTER_MATCHER_H
 #include <utility>
 
 #include <GraphMol/RDKitBase.h>

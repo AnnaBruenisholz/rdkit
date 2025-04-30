@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_FFCONTRIB_H__
-#define __RD_FFCONTRIB_H__
+#ifndef RD_FFCONTRIB_H
+#define RD_FFCONTRIB_H
 
 namespace ForceFields {
 class ForceField;

@@ -30,8 +30,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RDKIT_FILTERDATA__
-#define __RDKIT_FILTERDATA__
+#ifndef RDKIT_FILTERDATA
+#define RDKIT_FILTERDATA
 
 #include "FilterCatalogEntry.h"
 #include "FilterCatalog.h"

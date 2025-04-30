@@ -2,8 +2,8 @@
 //
 // Created by Greg Landrum, July 2008
 //
-#ifndef __AVALONTOOLS_H__
-#define __AVALONTOOLS_H__
+#ifndef AVALONTOOLS_H
+#define AVALONTOOLS_H
 #include <string>
 
 #include <RDGeneral/export.h>

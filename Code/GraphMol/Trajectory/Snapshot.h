@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_SNAPSHOT_H__
-#define __RD_SNAPSHOT_H__
+#ifndef RD_SNAPSHOT_H
+#define RD_SNAPSHOT_H
 #include <utility>
 #include <Geometry/point.h>
 #include <boost/shared_array.hpp>

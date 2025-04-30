@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_BITOPS_H__
-#define __RD_BITOPS_H__
+#ifndef RD_BITOPS_H
+#define RD_BITOPS_H
 /*! \file BitOps.h
 
   \brief Contains general bit-comparison and similarity operations.

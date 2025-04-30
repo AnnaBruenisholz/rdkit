@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_CATALOGPARAMS_H__
-#define __RD_CATALOGPARAMS_H__
+#ifndef RD_CATALOGPARAMS_H
+#define RD_CATALOGPARAMS_H
 
 #include <string>
 

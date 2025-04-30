@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_ALIGN_POINTS_H__
-#define __RD_ALIGN_POINTS_H__
+#ifndef RD_ALIGN_POINTS_H
+#define RD_ALIGN_POINTS_H
 
 #include <Geometry/point.h>
 #include <Geometry/Transform3D.h>

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_CHIRAL_SET_H__
-#define __RD_CHIRAL_SET_H__
+#ifndef RD_CHIRAL_SET_H
+#define RD_CHIRAL_SET_H
 
 #include <RDGeneral/Invariant.h>
 #include <boost/smart_ptr.hpp>

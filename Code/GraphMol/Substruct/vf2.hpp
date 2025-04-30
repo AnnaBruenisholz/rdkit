@@ -15,8 +15,8 @@
 #include <algorithm>
 #include <cstring>
 
-#ifndef __BGL_VF2_SUB_STATE_H__
-#define __BGL_VF2_SUB_STATE_H__
+#ifndef BGL_VF2_SUB_STATE_H
+#define BGL_VF2_SUB_STATE_H
 //#define RDK_VF2_PRUNING
 #define RDK_ADJ_ITER typename Graph::adjacency_iterator
 

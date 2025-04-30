@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_UFFCONTRIBS_H__
-#define __RD_UFFCONTRIBS_H__
+#ifndef RD_UFFCONTRIBS_H
+#define RD_UFFCONTRIBS_H
 /*! \file Contribs.h
   \brief This convenience include pulls in all the other UFF include files
 */

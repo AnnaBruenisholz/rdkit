@@ -530,7 +530,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
                                &JSMolBase::get_svg))
 
       .function("get_svg_with_highlights", &JSMolBase::get_svg_with_highlights)
-#ifdef __EMSCRIPTEN__
+#ifdef EMSCRIPTEN
       .function("draw_to_canvas_with_offset", &draw_to_canvas_with_offset)
       .function("draw_to_canvas", &draw_to_canvas)
       .function("draw_to_canvas_with_highlights",
@@ -717,7 +717,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
 
 #ifdef RDK_BUILD_MINIMAL_LIB_RXN
   class_<JSReaction>("Reaction")
-#ifdef __EMSCRIPTEN__
+#ifdef EMSCRIPTEN
       .function("run_reactants", select_overload<std::vector<JSMolList *>(
                                      const JSMolList &, unsigned int) const>(
                                      &JSReaction::run_reactants))
@@ -743,7 +743,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
       .function("add_smiles", &JSSubstructLibrary::add_smiles)
       .function("add_trusted_smiles", &JSSubstructLibrary::add_trusted_smiles)
       .function("get_trusted_smiles", &JSSubstructLibrary::get_trusted_smiles)
-#ifdef __EMSCRIPTEN__
+#ifdef EMSCRIPTEN
       .function("add_trusted_smiles_and_pattern_fp",
                 select_overload<int(JSSubstructLibrary &, const std::string &,
                                     const val &)>(

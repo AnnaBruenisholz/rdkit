@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __CHEMICALFEATUREDEF_H_02122004_1750__
-#define __CHEMICALFEATUREDEF_H_02122004_1750__
+#ifndef CHEMICALFEATUREDEF_H_02122004_1750
+#define CHEMICALFEATUREDEF_H_02122004_1750
 
 #include <string>
 #include <vector>

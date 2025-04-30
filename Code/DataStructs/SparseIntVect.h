@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_SPARSE_INT_VECT_20070921__
-#define __RD_SPARSE_INT_VECT_20070921__
+#ifndef RD_SPARSE_INT_VECT_20070921
+#define RD_SPARSE_INT_VECT_20070921
 
 #include <map>
 #include <string>

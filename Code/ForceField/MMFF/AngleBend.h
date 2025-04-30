@@ -7,8 +7,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_MMFFANGLEBEND_H__
-#define __RD_MMFFANGLEBEND_H__
+#ifndef RD_MMFFANGLEBEND_H
+#define RD_MMFFANGLEBEND_H
 
 #include <ForceField/ForceField.h>
 #include <ForceField/Contrib.h>

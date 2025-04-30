@@ -32,8 +32,8 @@
 // Created by Greg Landrum, September 2006
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_SLNATTRIBS_H__
-#define __RD_SLNATTRIBS_H__
+#ifndef RD_SLNATTRIBS_H
+#define RD_SLNATTRIBS_H
 
 #include <string>
 #include <vector>

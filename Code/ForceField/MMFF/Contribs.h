@@ -10,8 +10,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_MMFFCONTRIBS_H__
-#define __RD_MMFFCONTRIBS_H__
+#ifndef RD_MMFFCONTRIBS_H
+#define RD_MMFFCONTRIBS_H
 /*! \file Contribs.h
   \brief This convenience include pulls in all the other MMFF include files
 */

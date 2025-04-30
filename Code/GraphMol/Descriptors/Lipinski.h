@@ -15,8 +15,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_LIPINSKI_H__
-#define __RD_LIPINSKI_H__
+#ifndef RD_LIPINSKI_H
+#define RD_LIPINSKI_H
 #include "RegisterDescriptor.h"
 
 namespace RDKit {

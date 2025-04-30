@@ -40,8 +40,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_MORGANFPS_H__
-#define __RD_MORGANFPS_H__
+#ifndef RD_MORGANFPS_H
+#define RD_MORGANFPS_H
 
 #include <vector>
 #include <map>

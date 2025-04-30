@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_POINT_H__
-#define __RD_POINT_H__
+#ifndef RD_POINT_H
+#define RD_POINT_H
 #include <iostream>
 #include <cmath>
 #include <vector>

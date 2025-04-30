@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __CHEMICALFEATUREFACTORY_H_02122004_1545__
-#define __CHEMICALFEATUREFACTORY_H_02122004_1545__
+#ifndef CHEMICALFEATUREFACTORY_H_02122004_1545
+#define CHEMICALFEATUREFACTORY_H_02122004_1545
 
 #include "MolChemicalFeatureDef.h"
 #include <iostream>

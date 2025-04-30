@@ -2,8 +2,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_MACCSFPS_H__
-#define __RD_MACCSFPS_H__
+#ifndef RD_MACCSFPS_H
+#define RD_MACCSFPS_H
 #include <string>
 
 class ExplicitBitVect;

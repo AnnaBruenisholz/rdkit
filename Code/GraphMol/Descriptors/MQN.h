@@ -14,8 +14,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_MQN_H__
-#define __RD_MQN_H__
+#ifndef RD_MQN_H
+#define RD_MQN_H
 
 #include <vector>
 

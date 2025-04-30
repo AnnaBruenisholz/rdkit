@@ -10,7 +10,7 @@
 // Original author: Greg Landrum
 //
 
-#ifdef __EMSCRIPTEN__
+#ifdef EMSCRIPTEN
 #include <GraphMol/MolDraw2D/DrawTextFT.h>
 #include <GraphMol/MolDraw2D/DrawTextFTJS.h>
 

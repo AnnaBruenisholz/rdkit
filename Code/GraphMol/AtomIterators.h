@@ -15,8 +15,8 @@
    these iterators you will be sad...
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_ATOM_ITERATORS_H__
-#define __RD_ATOM_ITERATORS_H__
+#ifndef RD_ATOM_ITERATORS_H
+#define RD_ATOM_ITERATORS_H
 
 #ifdef _MSC_VER
 #pragma warning(disable : 4661)  // no suitable definition provided for explicit

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_TRANSFORM_H__
-#define __RD_TRANSFORM_H__
+#ifndef RD_TRANSFORM_H
+#define RD_TRANSFORM_H
 
 namespace RDGeom {
 

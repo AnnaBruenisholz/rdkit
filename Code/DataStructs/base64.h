@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_BASE64_H__
-#define __RD_BASE64_H__
+#ifndef RD_BASE64_H
+#define RD_BASE64_H
 /*! \file base64.h
 
   \brief Functionality for base64 encoding/decoding

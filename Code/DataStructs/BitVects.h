@@ -13,8 +13,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __BITVECTS_H__
-#define __BITVECTS_H__
+#ifndef BITVECTS_H
+#define BITVECTS_H
 
 #include "BitVect.h"
 #include "ExplicitBitVect.h"

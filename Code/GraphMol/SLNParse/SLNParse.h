@@ -32,8 +32,8 @@
 // Created by Greg Landrum, September 2006
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_SLNPARSE_H__
-#define __RD_SLNPARSE_H__
+#ifndef RD_SLNPARSE_H
+#define RD_SLNPARSE_H
 
 #include <string>
 #include <exception>

@@ -36,8 +36,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_USR_H__
-#define __RD_USR_H__
+#ifndef RD_USR_H
+#define RD_USR_H
 
 #include <Geometry/point.h>
 #include <Numerics/Vector.h>

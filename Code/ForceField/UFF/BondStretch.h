@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_BONDSTRETCH_H__
-#define __RD_BONDSTRETCH_H__
+#ifndef RD_BONDSTRETCH_H
+#define RD_BONDSTRETCH_H
 #include <ForceField/Contrib.h>
 
 namespace ForceFields {

@@ -30,8 +30,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_FILTER_CATALOG_H__
-#define __RD_FILTER_CATALOG_H__
+#ifndef RD_FILTER_CATALOG_H
+#define RD_FILTER_CATALOG_H
 #include <utility>
 
 #include <RDGeneral/types.h>  // For Dict

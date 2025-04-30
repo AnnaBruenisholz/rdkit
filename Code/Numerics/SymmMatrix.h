@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_SYMM_MATRIX_H__
-#define __RD_SYMM_MATRIX_H__
+#ifndef RD_SYMM_MATRIX_H
+#define RD_SYMM_MATRIX_H
 
 #include "Matrix.h"
 #include "SquareMatrix.h"

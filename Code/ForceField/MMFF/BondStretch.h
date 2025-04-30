@@ -7,8 +7,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_MMFFBONDSTRETCH_H__
-#define __RD_MMFFBONDSTRETCH_H__
+#ifndef RD_MMFFBONDSTRETCH_H
+#define RD_MMFFBONDSTRETCH_H
 #include <ForceField/Contrib.h>
 
 #include <vector>

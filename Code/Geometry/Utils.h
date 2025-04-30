@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_DIST_UTILS_H__
-#define __RD_DIST_UTILS_H__
+#ifndef RD_DIST_UTILS_H
+#define RD_DIST_UTILS_H
 
 #include <cmath>
 #include "point.h"

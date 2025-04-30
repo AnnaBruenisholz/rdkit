@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef __RD_WRAPHELPERS_H__
-#define __RD_WRAPHELPERS_H__
+#ifndef RD_WRAPHELPERS_H
+#define RD_WRAPHELPERS_H
 
 #include <DataStructs/BitVects.h>
 #include <DataStructs/BitOps.h>
