@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_GASTEIGERPARAMS_H
-#define _RD_GASTEIGERPARAMS_H
+#ifndef RD_GASTEIGERPARAMSH
+#define RD_GASTEIGERPARAMSH
 
 #include <RDGeneral/types.h>
 #include <RDGeneral/Exceptions.h>

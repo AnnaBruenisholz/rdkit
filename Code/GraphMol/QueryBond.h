@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_QUERYBOND_H
-#define _RD_QUERYBOND_H
+#ifndef RD_QUERYBONDH
+#define RD_QUERYBONDH
 
 #include <Query/QueryObjects.h>
 #include "Bond.h"

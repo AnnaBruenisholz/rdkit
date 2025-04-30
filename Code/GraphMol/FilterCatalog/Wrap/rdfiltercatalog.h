@@ -29,8 +29,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 #include <RDGeneral/export.h>
-#ifndef _RDFILTERCAT_INCL_
-#define _RDFILTERCAT_INCL_
+#ifndef RDFILTERCAT_INCL
+#define RDFILTERCAT_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdfiltercat_array_API
 #include <RDBoost/Wrap.h>

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_EXCEPTIONS_H
-#define _RD_EXCEPTIONS_H
+#ifndef RD_EXCEPTIONSH
+#define RD_EXCEPTIONSH
 #include <stdexcept>
 #include <string>
 #include <utility>

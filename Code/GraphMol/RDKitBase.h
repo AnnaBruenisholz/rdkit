@@ -15,8 +15,8 @@
 */
 
 #include <RDGeneral/export.h>
-#ifndef _RDKIT_BASE_H
-#define _RDKIT_BASE_H
+#ifndef RDKIT_BASEH
+#define RDKIT_BASEH
 
 #include <RDGeneral/Invariant.h>
 

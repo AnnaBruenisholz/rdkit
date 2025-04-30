@@ -13,15 +13,15 @@
 #define RD_TYPES_H
 
 #ifdef WIN32
-#ifndef _USE_MATH_DEFINES
-#define _USE_MATH_DEFINES
-#define _DEFINED_USE_MATH_DEFINES
+#ifndef USE_MATHDEFINES
+#define USE_MATHDEFINES
+#define DEFINED_USE_MATHDEFINES
 #endif
 #endif
 #include <cmath>
-#ifdef _DEFINED_USE_MATH_DEFINES
-#undef _DEFINED_USE_MATH_DEFINES
-#undef _USE_MATH_DEFINES
+#ifdef DEFINED_USE_MATHDEFINES
+#undef DEFINED_USE_MATHDEFINES
+#undef USE_MATHDEFINES
 #endif
 
 #include "Invariant.h"

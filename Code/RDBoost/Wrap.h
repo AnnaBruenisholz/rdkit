@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_WRAP_H_
-#define _RD_WRAP_H_
+#ifndef RD_WRAP_H
+#define RD_WRAP_H
 
 #include <RDGeneral/Invariant.h>
 

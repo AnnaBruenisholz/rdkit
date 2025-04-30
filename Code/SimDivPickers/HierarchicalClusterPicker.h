@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _HIERARCHCLUSTERPICKER_H
-#define _HIERARCHCLUSTERPICKER_H
+#ifndef HIERARCHCLUSTERPICKERH
+#define HIERARCHCLUSTERPICKERH
 
 #include <RDGeneral/types.h>
 #include "DistPicker.h"

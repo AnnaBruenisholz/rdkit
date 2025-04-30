@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_PROXIMITYBONDS_H_
-#define _RD_PROXIMITYBONDS_H_
+#ifndef RD_PROXIMITYBONDS_H
+#define RD_PROXIMITYBONDS_H
 #include <GraphMol/RWMol.h>
 
 namespace RDKit {

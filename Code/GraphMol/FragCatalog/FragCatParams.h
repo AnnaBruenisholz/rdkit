@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_FRAG_CAT_PARAMS_H_
-#define _RD_FRAG_CAT_PARAMS_H_
+#ifndef RD_FRAG_CAT_PARAMS_H
+#define RD_FRAG_CAT_PARAMS_H
 
 #include <Catalogs/CatalogParams.h>
 #include <string>

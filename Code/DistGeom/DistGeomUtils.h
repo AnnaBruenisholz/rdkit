@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_DISTGEOMUTILS_H_
-#define _RD_DISTGEOMUTILS_H_
+#ifndef RD_DISTGEOMUTILS_H
+#define RD_DISTGEOMUTILS_H
 
 #include "BoundsMatrix.h"
 #include <Numerics/SymmMatrix.h>

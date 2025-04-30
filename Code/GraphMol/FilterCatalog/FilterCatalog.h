@@ -30,8 +30,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_FILTER_CATALOG_PARAMS_
-#define _RD_FILTER_CATALOG_PARAMS_
+#ifndef RD_FILTER_CATALOG_PARAMS
+#define RD_FILTER_CATALOG_PARAMS
 
 #include <Catalogs/Catalog.h>
 #include <Catalogs/CatalogParams.h>

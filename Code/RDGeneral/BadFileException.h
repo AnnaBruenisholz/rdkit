@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_BADFILEEXCEPTION_H
-#define _RD_BADFILEEXCEPTION_H
+#ifndef RD_BADFILEEXCEPTIONH
+#define RD_BADFILEEXCEPTIONH
 
 #include <string>
 #include <utility>

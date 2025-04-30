@@ -11,19 +11,19 @@
 #pragma once
 
 #ifndef SWIG
-#ifdef _MSC_VER
+#ifdef MSCVER
 #pragma warning(disable : 4251)
 #pragma warning(disable : 4275)
 #endif
 
 #ifdef BOOST_NO_CXX98_FUNCTION_BASE
 #undef BOOST_NO_CXX98_FUNCTION_BASE
-#ifndef _SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTION_BASE
-#define _SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTION_BASE 1
+#ifndef SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTIONBASE
+#define SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTIONBASE 1
 #endif
 #endif
 #include <boost/config.hpp>
-#ifdef _SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTION_BASE
+#ifdef SHOULD_DEFINE_BOOST_NO_CXX98_FUNCTIONBASE
 #ifndef BOOST_NO_CXX98_FUNCTION_BASE
 #define BOOST_NO_CXX98_FUNCTION_BASE 1
 #endif
@@ -34,7 +34,7 @@
 #if defined(_WIN32) && defined(BOOST_HAS_DECLSPEC)
 #define RDKIT_EXPORT_API __declspec(dllexport)
 #define RDKIT_IMPORT_API __declspec(dllimport)
-#elif __GNUC__ >= 4 || defined(__clang__)
+#elif _GNUC_ >= 4 || defined(__clang__)
 #define RDKIT_EXPORT_API __attribute__((visibility("default")))
 #define RDKIT_IMPORT_API __attribute__((visibility("default")))
 #endif  // WIN32

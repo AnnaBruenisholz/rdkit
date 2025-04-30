@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RDFRAGCAT_INCL_
-#define _RDFRAGCAT_INCL_
+#ifndef RDFRAGCAT_INCL
+#define RDFRAGCAT_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdfragcat_array_API
 #include <RDBoost/Wrap.h>

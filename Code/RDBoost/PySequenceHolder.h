@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_PYSEQUENCEHOLDER_H_
-#define _RD_PYSEQUENCEHOLDER_H_
+#ifndef RD_PYSEQUENCEHOLDER_H
+#define RD_PYSEQUENCEHOLDER_H
 
 //
 // Defines a class to hold sequences passed in from Python

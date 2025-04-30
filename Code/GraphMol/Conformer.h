@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_CONFORMER_H
-#define _RD_CONFORMER_H
+#ifndef RD_CONFORMERH
+#define RD_CONFORMERH
 
 #include <Geometry/point.h>
 #include <RDGeneral/types.h>

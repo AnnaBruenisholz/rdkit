@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MOLFRAGMENTER_H__
-#define _RD_MOLFRAGMENTER_H__
+#ifndef RD_MOLFRAGMENTER_H_
+#define RD_MOLFRAGMENTER_H_
 
 #include <istream>
 #include <GraphMol/ROMol.h>

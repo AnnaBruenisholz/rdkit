@@ -2,8 +2,8 @@
 //  Copyright (C) 2006 Greg Landrum
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MOL_CATALOG_PARAMS_H_
-#define _RD_MOL_CATALOG_PARAMS_H_
+#ifndef RD_MOL_CATALOG_PARAMS_H
+#define RD_MOL_CATALOG_PARAMS_H
 
 #include <Catalogs/CatalogParams.h>
 #include <string>

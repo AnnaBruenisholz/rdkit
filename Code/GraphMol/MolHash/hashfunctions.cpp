@@ -6,8 +6,8 @@
 //  The contents are covered by the terms of the BSD license
 //  which is included in the file license.txt, found at the root
 //  of the RDKit source tree.
-#ifndef _CRT_SECURE_NO_WARNINGS
-#define _CRT_SECURE_NO_WARNINGS
+#ifndef CRT_SECURE_NOWARNINGS
+#define CRT_SECURE_NOWARNINGS
 #endif
 
 #include <cstring>

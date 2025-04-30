@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _GRID3D_H_20050124_1113
-#define _GRID3D_H_20050124_1113
+#ifndef GRID3D_H_200501241113
+#define GRID3D_H_200501241113
 #include <exception>
 #include <string>
 #include <utility>

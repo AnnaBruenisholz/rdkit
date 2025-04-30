@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_CHEMTRANSFORMS_H__
-#define _RD_CHEMTRANSFORMS_H__
+#ifndef RD_CHEMTRANSFORMS_H_
+#define RD_CHEMTRANSFORMS_H_
 
 #include <boost/smart_ptr.hpp>
 #include <vector>

@@ -41,7 +41,7 @@ class RDKIT_RDGEOMETRYLIB_EXPORT Point {
 
   virtual Point *copy() const = 0;
 };
-#ifndef _MSC_VER
+#ifndef MSCVER
 // g++ (at least as of v9.3.0) generates some spurious warnings from here.
 // disable them
 #if !defined(__clang__) && defined(__GNUC__)
@@ -525,7 +525,7 @@ class RDKIT_RDGEOMETRYLIB_EXPORT PointND : public Point {
     return dp_storage.get();
   }
 };
-#ifndef _MSC_VER
+#ifndef MSCVER
 #if !defined(__clang__) && defined(__GNUC__)
 #pragma GCC diagnostic pop
 #endif

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_ALIGNMOLECULES_H_
-#define _RD_ALIGNMOLECULES_H_
+#ifndef RD_ALIGNMOLECULES_H
+#define RD_ALIGNMOLECULES_H
 
 #include <Geometry/Transform3D.h>
 #include <Numerics/Vector.h>

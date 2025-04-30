@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_CORRMATGENERATOR_H_
-#define _RD_CORRMATGENERATOR_H_
+#ifndef RD_CORRMATGENERATOR_H
+#define RD_CORRMATGENERATOR_H
 
 #include <RDGeneral/types.h>
 #include <DataStructs/BitVects.h>

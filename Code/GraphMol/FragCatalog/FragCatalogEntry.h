@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_FRAGCATALOGENTRY_H_
-#define _RD_FRAGCATALOGENTRY_H_
+#ifndef RD_FRAGCATALOGENTRY_H
+#define RD_FRAGCATALOGENTRY_H
 
 #include "FragCatParams.h"
 #include <RDGeneral/utils.h>

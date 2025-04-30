@@ -3,8 +3,8 @@
 //
 //   @@ All Rights Reserved  @@
 //
-#ifndef _SEQS_HPP_
-#define _SEQS_HPP_
+#ifndef SEQS_HPP
+#define SEQS_HPP
 
 #include <GraphMol/RDKitBase.h>
 #include <RDBoost/python.h>

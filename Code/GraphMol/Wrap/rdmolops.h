@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RDMOLOPS_INCL_
-#define _RDMOLOPS_INCL_
+#ifndef RDMOLOPS_INCL
+#define RDMOLOPS_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdmolops_array_API
 

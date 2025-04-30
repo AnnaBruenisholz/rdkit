@@ -31,8 +31,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 #include <RDGeneral/export.h>
-#ifndef _RDKIT_CACHE_H_
-#define _RDKIT_CACHE_H_
+#ifndef RDKIT_CACHE_H
+#define RDKIT_CACHE_H
 
 #ifdef __cplusplus
 extern "C" {

@@ -14,13 +14,13 @@
 #include <cstddef>
 #include <ctime>
 #include <iostream>
-#ifdef _MSC_VER
-#define _CRT_SECURE_NO_WARNINGS
+#ifdef MSCVER
+#define CRT_SECURE_NOWARNINGS
 #define NOMINMAX
 #include <Winsock2.h>  // for timeval
 #ifdef _DEBUG          // check memory leaks
 #include <crtdbg.h>
-#define _CRTDBG_MAP_ALLOC
+#define CRTDBG_MAPALLOC
 #ifndef new
 #define new new (_NORMAL_BLOCK, __FILE__, __LINE__)
 #endif
@@ -55,7 +55,7 @@
 
 #define VERBOSE_STATISTICS_ON
 
-#ifdef _MSC_VER
+#ifdef MSCVER
 #define DELTA_EPOCH_IN_MICROSECS 11644473600000000ULL
 
 struct timezone {

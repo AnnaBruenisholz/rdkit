@@ -15,8 +15,8 @@
    these iterators you will be sad...
 */
 #include <RDGeneral/export.h>
-#ifndef _RD_BOND_ITERATORS_H
-#define _RD_BOND_ITERATORS_H
+#ifndef RD_BOND_ITERATORSH
+#define RD_BOND_ITERATORSH
 
 #include "ROMol.h"
 

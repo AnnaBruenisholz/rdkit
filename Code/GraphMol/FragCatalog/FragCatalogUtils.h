@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_FRAG_CATALOG_UTILS_H_
-#define _RD_FRAG_CATALOG_UTILS_H_
+#ifndef RD_FRAG_CATALOG_UTILS_H
+#define RD_FRAG_CATALOG_UTILS_H
 
 #include <GraphMol/Subgraphs/Subgraphs.h>
 #include <GraphMol/RDKitBase.h>

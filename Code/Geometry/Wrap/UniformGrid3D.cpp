@@ -144,7 +144,7 @@ struct uGrid3D_wrapper {
              "occupancy\n")
 
         .def(python::self += python::self)
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wself-assign-overloaded"
 #endif
@@ -152,7 +152,7 @@ struct uGrid3D_wrapper {
              python::self)  // clang warns incorrectly on these constructs
         .def(python::self |= python::self)
         .def(python::self -= python::self)
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic pop
 #endif
 

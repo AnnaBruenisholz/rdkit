@@ -13,8 +13,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef _GRAPH_MOL_H
-#define _GRAPH_MOL_H
+#ifndef GRAPH_MOLH
+#define GRAPH_MOLH
 
 #include "ROMol.h"
 #include "RWMol.h"

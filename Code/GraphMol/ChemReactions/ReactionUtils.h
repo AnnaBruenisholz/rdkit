@@ -31,8 +31,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef __RD_REACTION_UTILS_H
-#define __RD_REACTION_UTILS_H
+#ifndef _RD_REACTION_UTILSH
+#define _RD_REACTION_UTILSH
 
 #include <GraphMol/ChemReactions/Reaction.h>
 

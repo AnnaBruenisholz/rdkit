@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_O3AALIGNMOLECULES_H_
-#define _RD_O3AALIGNMOLECULES_H_
+#ifndef RD_O3AALIGNMOLECULES_H
+#define RD_O3AALIGNMOLECULES_H
 
 #include <RDGeneral/Invariant.h>
 #include <Geometry/Transform3D.h>

@@ -135,13 +135,13 @@ struct Point_wrapper {
              python::args("self", "other"),
              "Vector difference")
         .def(python::self - python::self)
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wself-assign-overloaded"
 #endif
         .def(python::self -=
              python::self)  // clang warns incorrectly on this construct
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic pop
 #endif
         .def(python::self + python::self)
@@ -192,13 +192,13 @@ struct Point_wrapper {
         .def("__getitem__", point2dGetItem, python::args("self", "idx"))
         .def("__len__", &Point2D::dimension, python::args("self"))
         .def(python::self - python::self)
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wself-assign-overloaded"
 #endif
         .def(python::self -=
              python::self)  // clang warns incorrectly on this construct
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic pop
 #endif
         .def(python::self + python::self)
@@ -246,13 +246,13 @@ struct Point_wrapper {
              python::args("self", "other"),
              "Vector difference")
         .def(python::self - python::self)
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wself-assign-overloaded"
 #endif
         .def(python::self -=
              python::self)  // clang warns incorrectly on this construct
-#ifdef __clang__
+#ifdef _clang_
 #pragma GCC diagnostic pop
 #endif
         .def(python::self + python::self)

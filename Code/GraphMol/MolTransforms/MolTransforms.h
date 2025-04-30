@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MOLTRANSFORMS_H_
-#define _RD_MOLTRANSFORMS_H_
+#ifndef RD_MOLTRANSFORMS_H
+#define RD_MOLTRANSFORMS_H
 
 #include <Geometry/point.h>
 #include <Numerics/SymmMatrix.h>

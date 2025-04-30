@@ -10,8 +10,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MMFFATOMTYPER_H__
-#define _RD_MMFFATOMTYPER_H__
+#ifndef RD_MMFFATOMTYPER_H_
+#define RD_MMFFATOMTYPER_H_
 
 #include <vector>
 #include <string>

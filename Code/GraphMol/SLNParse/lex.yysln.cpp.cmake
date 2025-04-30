@@ -36,8 +36,8 @@
 /* C99 says to define __STDC_LIMIT_MACROS before including stdint.h,
  * if you want the limit (max/min) macros for int types. 
  */
-#ifndef __STDC_LIMIT_MACROS
-#define __STDC_LIMIT_MACROS 1
+#ifndef _STDC_LIMITMACROS
+#define _STDC_LIMITMACROS 1
 #endif
 
 #include <cinttypes>

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_PERIODIC_TABLE_H
-#define _RD_PERIODIC_TABLE_H
+#ifndef RD_PERIODIC_TABLEH
+#define RD_PERIODIC_TABLEH
 
 #include <map>
 #include <vector>

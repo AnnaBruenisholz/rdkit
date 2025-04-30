@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _GRIDUTILS_H_20050126
-#define _GRIDUTILS_H_20050126
+#ifndef GRIDUTILS_H20050126
+#define GRIDUTILS_H20050126
 
 #include <vector>
 

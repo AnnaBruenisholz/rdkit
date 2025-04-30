@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_POWER_EIGENSOLVER_H
-#define _RD_POWER_EIGENSOLVER_H
+#ifndef RD_POWER_EIGENSOLVERH
+#define RD_POWER_EIGENSOLVERH
 
 #include <Numerics/Vector.h>
 #include <Numerics/Matrix.h>

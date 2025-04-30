@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_SEQUENCEPARSE_H_
-#define _RD_SEQUENCEPARSE_H_
+#ifndef RD_SEQUENCEPARSE_H
+#define RD_SEQUENCEPARSE_H
 #include <string>
 
 namespace RDKit {

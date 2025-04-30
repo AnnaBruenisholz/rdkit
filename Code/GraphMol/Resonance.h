@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RESONANCE_H__
-#define _RESONANCE_H__
+#ifndef RESONANCE_H_
+#define RESONANCE_H_
 
 #include <vector>
 #include <stack>

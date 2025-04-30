@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_DISTPICKER_H
-#define _RD_DISTPICKER_H
+#ifndef RD_DISTPICKERH
+#define RD_DISTPICKERH
 
 #include <RDGeneral/types.h>
 

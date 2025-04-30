@@ -9,7 +9,7 @@
 //
 #if defined(__CYGWIN__) && !defined(_GNU_SOURCE)
 // -std=c++11 doesn't declare strtok_r
-#define _GNU_SOURCE
+#define GNUSOURCE
 #endif
 
 #include <map>
@@ -17,8 +17,8 @@
 #include "Pattern.h"
 
 // define snprintf for msvc
-#if _MSC_VER
-#if _MSC_VER < 1900
+#if MSCVER
+#if MSCVER < 1900
 #define snprintf _snprintf
 #endif
 #endif

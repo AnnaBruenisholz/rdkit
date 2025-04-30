@@ -33,7 +33,7 @@
 
 #ifdef RDK_OPTIMIZE_POPCNT
 
-#ifdef _MSC_VER
+#ifdef MSCVER
 #include <intrin.h>
 #define POPCNT __popcnt
 typedef unsigned int POPCNT_TYPE;

@@ -16,8 +16,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef __RD_ATOMIC_DATA_H
-#define __RD_ATOMIC_DATA_H
+#ifndef _RD_ATOMIC_DATAH
+#define _RD_ATOMIC_DATAH
 
 #include <RDGeneral/types.h>
 #include <map>

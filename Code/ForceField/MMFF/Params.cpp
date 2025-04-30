@@ -11,7 +11,7 @@
 //  of the RDKit source tree.
 //
 #ifdef WIN32
-#define _USE_MATH_DEFINES
+#define USE_MATHDEFINES
 #endif
 #include <cmath>
 #include "Params.h"

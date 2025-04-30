@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_FRAG_FP_GENERATOR_H_
-#define _RD_FRAG_FP_GENERATOR_H_
+#ifndef RD_FRAG_FP_GENERATOR_H
+#define RD_FRAG_FP_GENERATOR_H
 
 #include <vector>
 #include <Catalogs/Catalog.h>

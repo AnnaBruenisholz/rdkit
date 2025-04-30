@@ -3,8 +3,8 @@
 //
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MOL_CATALOG_H_
-#define _RD_MOL_CATALOG_H_
+#ifndef RD_MOL_CATALOG_H
+#define RD_MOL_CATALOG_H
 
 #include <Catalogs/Catalog.h>
 #include <GraphMol/MolCatalog/MolCatalogEntry.h>

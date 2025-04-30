@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_REDUCEDGRAPHS_H_
-#define _RD_REDUCEDGRAPHS_H_
+#ifndef RD_REDUCEDGRAPHS_H
+#define RD_REDUCEDGRAPHS_H
 
 #include <vector>
 #include <cstdint>

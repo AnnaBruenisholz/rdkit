@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_MOLWRITERS_H_
-#define _RD_MOLWRITERS_H_
+#ifndef RD_MOLWRITERS_H
+#define RD_MOLWRITERS_H
 
 #include <RDGeneral/types.h>
 

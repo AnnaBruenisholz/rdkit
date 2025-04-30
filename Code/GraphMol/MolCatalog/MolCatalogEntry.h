@@ -2,8 +2,8 @@
 //  Copyright (C) 2006 Greg Landrum
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_MOLCATALOGENTRY_H_
-#define _RD_MOLCATALOGENTRY_H_
+#ifndef RD_MOLCATALOGENTRY_H
+#define RD_MOLCATALOGENTRY_H
 
 #include <RDGeneral/Dict.h>
 #include <Catalogs/CatalogEntry.h>

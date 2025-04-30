@@ -915,7 +915,7 @@ class HasPropWithValueQuery
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef __GNUC__
+#ifdef _GNUC_
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to
@@ -987,7 +987,7 @@ class HasPropWithValueQuery<TargetPtr, std::string>
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef __GNUC__
+#ifdef _GNUC_
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to
@@ -1063,7 +1063,7 @@ class HasPropWithValueQuery<TargetPtr, ExplicitBitVect>
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef __GNUC__
+#ifdef _GNUC_
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to

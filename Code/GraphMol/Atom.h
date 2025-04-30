@@ -13,8 +13,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef _RD_ATOM_H
-#define _RD_ATOM_H
+#ifndef RD_ATOMH
+#define RD_ATOMH
 
 // Std stuff
 #include <iostream>

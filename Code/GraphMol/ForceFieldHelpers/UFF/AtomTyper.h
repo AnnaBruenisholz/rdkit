@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_UFFATOMTYPER_H__
-#define _RD_UFFATOMTYPER_H__
+#ifndef RD_UFFATOMTYPER_H_
+#define RD_UFFATOMTYPER_H_
 
 #include <vector>
 #include <string>

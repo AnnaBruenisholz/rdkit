@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_SHAPE_UTILS_H_20050128_
-#define _RD_SHAPE_UTILS_H_20050128_
+#ifndef RD_SHAPE_UTILS_H_20050128
+#define RD_SHAPE_UTILS_H_20050128
 #include <DataStructs/DiscreteValueVect.h>
 #include <vector>
 

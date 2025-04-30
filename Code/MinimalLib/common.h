@@ -8,7 +8,7 @@
 //  of the RDKit source tree.
 //
 #pragma once
-#ifdef __GNUC__
+#ifdef _GNUC_
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
@@ -65,7 +65,7 @@
 #include <atomic>
 #endif
 
-#ifndef _MSC_VER
+#ifndef MSCVER
 // shutoff some warnings from rapidjson
 #if !defined(__clang__) && defined(__GNUC__)
 #pragma GCC diagnostic push
@@ -75,7 +75,7 @@
 #include <rapidjson/document.h>
 #include <rapidjson/stringbuffer.h>
 #include <rapidjson/writer.h>
-#ifndef _MSC_VER
+#ifndef MSCVER
 #if !defined(__clang__) && defined(__GNUC__)
 #pragma GCC diagnostic pop
 #endif

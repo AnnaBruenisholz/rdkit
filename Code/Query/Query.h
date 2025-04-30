@@ -11,7 +11,7 @@
 #ifndef RD_QUERY_H
 #define RD_QUERY_H
 
-#ifdef _MSC_VER
+#ifdef MSCVER
 #pragma warning(disable : 4800)  // warning: converting things to bool
 #endif
 

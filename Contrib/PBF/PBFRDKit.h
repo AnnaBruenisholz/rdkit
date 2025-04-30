@@ -43,8 +43,8 @@
 //
 // Created by Nicholas Firth, November 2011
 
-#ifndef _PBFRDKit_h
-#define _PBFRDKit_h
+#ifndef PBFRDKith
+#define PBFRDKith
 
 #include <iostream>
 

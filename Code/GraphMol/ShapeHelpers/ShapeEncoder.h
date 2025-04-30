@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_SHAPE_ENCODER_H_20050125_0800_
-#define _RD_SHAPE_ENCODER_H_20050125_0800_
+#ifndef RD_SHAPE_ENCODER_H_20050125_0800
+#define RD_SHAPE_ENCODER_H_20050125_0800
 
 namespace RDGeom {
 class UniformGrid3D;

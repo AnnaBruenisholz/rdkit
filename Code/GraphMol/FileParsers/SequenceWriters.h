@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_SEQUENCEWRITE_H_
-#define _RD_SEQUENCEWRITE_H_
+#ifndef RD_SEQUENCEWRITE_H
+#define RD_SEQUENCEWRITE_H
 #include <string>
 
 namespace RDKit {

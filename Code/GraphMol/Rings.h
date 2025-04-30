@@ -12,8 +12,8 @@
 //! \brief utility functionality for working with ring systems
 
 #include <RDGeneral/export.h>
-#ifndef _RDRINGS_H_
-#define _RDRINGS_H_
+#ifndef RDRINGS_H
+#define RDRINGS_H
 
 #include <vector>
 #include <map>

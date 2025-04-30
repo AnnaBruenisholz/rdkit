@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_TORSIONPREFERENCES_H_
-#define _RD_TORSIONPREFERENCES_H_
+#ifndef RD_TORSIONPREFERENCES_H
+#define RD_TORSIONPREFERENCES_H
 #include <vector>
 #include <string>
 #include <memory>

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_GASTEIGERCHARGES_H
-#define _RD_GASTEIGERCHARGES_H
+#ifndef RD_GASTEIGERCHARGESH
+#define RD_GASTEIGERCHARGESH
 
 #include <vector>
 

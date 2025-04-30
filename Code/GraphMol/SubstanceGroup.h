@@ -14,8 +14,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef _RD_SGROUP_H
-#define _RD_SGROUP_H
+#ifndef RD_SGROUPH
+#define RD_SGROUPH
 
 #include <iostream>
 #include <utility>

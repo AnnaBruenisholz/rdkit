@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef _RDCHEM_INCL_
-#define _RDCHEM_INCL_
+#ifndef RDCHEM_INCL
+#define RDCHEM_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdchem_array_API
 

@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_INFORANKER_H_
-#define _RD_INFORANKER_H_
+#ifndef RD_INFORANKER_H
+#define RD_INFORANKER_H
 
 #include <RDGeneral/types.h>
 #include <DataStructs/BitVects.h>

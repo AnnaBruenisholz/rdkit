@@ -46,7 +46,7 @@
 #pragma GCC diagnostic ignored "-Wreorder"
 #pragma GCC diagnostic ignored "-Wunused"
 #if defined(__apple_build_version__)
-#if __apple_build_version__ >= 7000072
+#if _apple_build_version_ >= 7000072
 #pragma GCC diagnostic ignored "-Wunused-local-typedef"
 #endif
 #endif

@@ -9,8 +9,8 @@
 //
 //
 #include <RDGeneral/export.h>
-#ifndef _RD_STREAMOPS_H
-#define _RD_STREAMOPS_H
+#ifndef RD_STREAMOPSH
+#define RD_STREAMOPSH
 
 #include "types.h"
 #include "Invariant.h"
