@@ -41,7 +41,7 @@ class RDKIT_RDGEOMETRYLIB_EXPORT Point {
 
   virtual Point *copy() const = 0;
 };
-#ifndef MSCVER
+#ifndef _MSC_VER
 // g++ (at least as of v9.3.0) generates some spurious warnings from here.
 // disable them
 #if !defined(__clang__) && defined(__GNUC__)
@@ -586,3 +586,4 @@ RDKIT_RDGEOMETRYLIB_EXPORT RDGeom::PointND operator/(const RDGeom::PointND &p1,
 }  // namespace RDGeom
 
 #endif
+

@@ -9,8 +9,8 @@
 //
 //
 #include <RDGeneral/export.h>
-#ifndef RD_STREAMOPSH
-#define RD_STREAMOPSH
+#ifndef RD_STREAMOPS_H
+#define RD_STREAMOPS_H
 
 #include "types.h"
 #include "Invariant.h"
@@ -652,3 +652,4 @@ inline unsigned int streamReadProps(std::istream &ss, RDProps &props,
 }  // namespace RDKit
 
 #endif
+

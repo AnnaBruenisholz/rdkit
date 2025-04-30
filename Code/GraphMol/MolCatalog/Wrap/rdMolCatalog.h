@@ -8,10 +8,11 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RDMOLCATALOG_WRAP_INCL
-#define RDMOLCATALOG_WRAP_INCL
+#ifndef RD_MOLCATALOG_WRAP_INCL
+#define RD_MOLCATALOG_WRAP_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdmolcat_array_API
 #include <RDBoost/Wrap.h>
 
 #endif
+

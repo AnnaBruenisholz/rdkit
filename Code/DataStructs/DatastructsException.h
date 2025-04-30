@@ -11,8 +11,8 @@
 #include <utility>
 
 #include <RDGeneral/export.h>
-#ifndef DATASTRUCTS_EXCEPTION_H20050126
-#define DATASTRUCTS_EXCEPTION_H20050126
+#ifndef RD_DATASTRUCTS_EXCEPTION_H20050126
+#define RD_DATASTRUCTS_EXCEPTION_H20050126
 
 class RDKIT_DATASTRUCTS_EXPORT DatastructsException : public std::exception {
  public:
@@ -29,3 +29,4 @@ class RDKIT_DATASTRUCTS_EXPORT DatastructsException : public std::exception {
 };
 
 #endif
+

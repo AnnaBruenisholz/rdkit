@@ -13,9 +13,9 @@
 #define RD_TYPES_H
 
 #ifdef WIN32
-#ifndef USE_MATHDEFINES
-#define USE_MATHDEFINES
-#define DEFINED_USE_MATHDEFINES
+#ifndef _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES
+#define _DEFINED_USE_MATH_DEFINES
 #endif
 #endif
 #include <cmath>
@@ -413,3 +413,4 @@ RDKIT_RDGENERAL_EXPORT int nextCombination(INT_VECT &comb, int tot);
 };  // namespace RDKit
 
 #endif
+

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_BADFILEEXCEPTIONH
-#define RD_BADFILEEXCEPTIONH
+#ifndef RD_BADFILEEXCEPTION_H
+#define RD_BADFILEEXCEPTION_H
 
 #include <string>
 #include <utility>
@@ -37,3 +37,4 @@ class RDKIT_RDGENERAL_EXPORT BadFileException : public std::runtime_error {
 }  // namespace RDKit
 
 #endif
+

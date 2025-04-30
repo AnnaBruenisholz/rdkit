@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RESONANCE_H_
-#define RESONANCE_H_
+#ifndef RESONANCE_H
+#define RESONANCE_H
 
 #include <vector>
 #include <stack>
@@ -234,3 +234,4 @@ class RDKIT_GRAPHMOL_EXPORT ResonanceMolSupplier {
 };
 }  // namespace RDKit
 #endif
+

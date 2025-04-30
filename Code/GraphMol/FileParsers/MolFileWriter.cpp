@@ -586,7 +586,7 @@ void GetMolFileAtomProperties(const Atom *atom, const Conformer *conf,
       parityFlag = getAtomParityFlag(atom, conf);
     }
   }
-  
+
   if (hasNonDefaultValence(atom)) {
     if (atom->getTotalDegree() == 0) {
       // Specify zero valence for elements/metals without neighbors
@@ -614,7 +614,7 @@ const std::string GetMolFileAtomLine(const Atom *atom, const Conformer *conf,
       (z >= MAX_V2000_COORD || z <= MIN_V2000_COORD) ) {
     throw ValueErrorException("MolFile coordinates must be in (-100000, 1000000)");
   }
-  
+
   int massDiff, chg, stereoCare, hCount, rxnComponentType, rxnComponentNumber,
       inversionFlag, exactChangeFlag;
   massDiff = 0;
@@ -635,7 +635,7 @@ const std::string GetMolFileAtomLine(const Atom *atom, const Conformer *conf,
   // time of this writing (with boost 1.55), the snprintf version runs in 20% of
   // the time.
   char dest[128];
-#ifndef MSCVER
+#ifndef _MSC_VER
   snprintf(dest, 128,
            "%10.4f%10.4f%10.4f %3s%2d%3d%3d%3d%3d%3d  0%3d%3d%3d%3d%3d", x, y,
            z, symbol.c_str(), massDiff, chg, parityFlag, hCount, stereoCare,
@@ -1290,7 +1290,7 @@ std::string outputMolToMolBlock(const RWMol &tmol, int confId,
 			      " or >= " + std::to_string((int)MAX_V2000_COORD) );
   }
 
-  
+
   std::string text;
   if (tmol.getPropIfPresent(common_properties::_Name, text)) {
     res += text;

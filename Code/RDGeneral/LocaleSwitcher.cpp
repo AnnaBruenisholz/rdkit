@@ -30,7 +30,7 @@
 //
 #if defined(__CYGWIN__) && !defined(_GNU_SOURCE)
 // -std=c++11 turns off recent POSIX features!
-#define GNUSOURCE
+#define _GNU_SOURCE
 #endif
 
 #include "LocaleSwitcher.h"
@@ -38,10 +38,10 @@
 
 // LocaleSwitcher Dependencies
 #include <clocale>
-#ifdef _APPLE_
+#ifdef __APPLE__
 #include <xlocale.h>
 #endif
-#ifdef _CYGWIN_
+#ifdef __CYGWIN__
 #include <locale.h>
 #endif
 #ifdef RDK_BUILD_THREADSAFE_SSS

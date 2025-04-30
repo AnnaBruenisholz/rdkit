@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef HIERARCHCLUSTERPICKERH
-#define HIERARCHCLUSTERPICKERH
+#ifndef RD_HIERARCHCLUSTERPICKER_H
+#define RD_HIERARCHCLUSTERPICKER_H
 
 #include <RDGeneral/types.h>
 #include "DistPicker.h"
@@ -105,3 +105,4 @@ class RDKIT_SIMDIVPICKERS_EXPORT HierarchicalClusterPicker : public DistPicker {
 };  // namespace RDPickers
 
 #endif
+

@@ -11,9 +11,9 @@
 #include <string.h>
 #include <stdlib.h>
 #ifdef WIN32
-#ifndef USE_MATHDEFINES
-#define USE_MATHDEFINES
-#define DEFINED_USE_MATHDEFINES
+#ifndef _USE_MATH_DEFINES
+#define _USE_MATH_DEFINES
+#define _DEFINED_USE_MATH_DEFINES
 #include <fcntl.h>
 #include <io.h>
 #include <windows.h>
@@ -23,9 +23,9 @@
 #include <poll.h>
 #endif
 #include <math.h>
-#ifdef DEFINED_USE_MATHDEFINES
-#undef DEFINED_USE_MATHDEFINES
-#undef USE_MATHDEFINES
+#ifdef _DEFINED_USE_MATH_DEFINES
+#undef _DEFINED_USE_MATH_DEFINES
+#undef _USE_MATH_DEFINES
 #endif
 #include "cffiwrapper.h"
 #ifdef NDEBUG
@@ -3263,3 +3263,4 @@ int main() {
   test_get_mol_remove_hs();
   return 0;
 }
+

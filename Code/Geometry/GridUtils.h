@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef GRIDUTILS_H20050126
-#define GRIDUTILS_H20050126
+#ifndef RD_GRIDUTILS_H20050126
+#define RD_GRIDUTILS_H20050126
 
 #include <vector>
 
@@ -62,3 +62,4 @@ RDKIT_RDGEOMETRYLIB_EXPORT std::vector<Point3D> findGridTerminalPoints(
 }  // namespace RDGeom
 
 #endif
+

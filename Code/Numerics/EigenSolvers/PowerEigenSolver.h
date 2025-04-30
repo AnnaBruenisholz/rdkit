@@ -9,8 +9,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef RD_POWER_EIGENSOLVERH
-#define RD_POWER_EIGENSOLVERH
+#ifndef RD_POWER_EIGENSOLVER_H
+#define RD_POWER_EIGENSOLVER_H
 
 #include <Numerics/Vector.h>
 #include <Numerics/Matrix.h>
@@ -66,3 +66,4 @@ static inline bool powerEigenSolver(unsigned int numEig, DoubleSymmMatrix &mat,
 };  // namespace RDNumeric
 
 #endif
+

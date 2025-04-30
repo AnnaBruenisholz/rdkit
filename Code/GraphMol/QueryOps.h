@@ -915,7 +915,7 @@ class HasPropWithValueQuery
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef _GNUC_
+#ifdef __GNUC__
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to
@@ -987,7 +987,7 @@ class HasPropWithValueQuery<TargetPtr, std::string>
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef _GNUC_
+#ifdef __GNUC__
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to
@@ -1063,7 +1063,7 @@ class HasPropWithValueQuery<TargetPtr, ExplicitBitVect>
       } catch (std::bad_any_cast &) {
         res = false;
       }
-#ifdef _GNUC_
+#ifdef __GNUC__
 #if (__GNUC__ < 4 || (__GNUC__ == 4 && __GNUC_MINOR__ < 2))
       catch (...) {
         // catch all -- this is currently necessary to
@@ -1162,3 +1162,4 @@ RDKIT_GRAPHMOL_EXPORT bool isMetal(const Atom &atom);
 }  // namespace QueryOps
 }  // namespace RDKit
 #endif
+

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_CHEMTRANSFORMS_H_
-#define RD_CHEMTRANSFORMS_H_
+#ifndef RD_CHEMTRANSFORMS_H
+#define RD_CHEMTRANSFORMS_H
 
 #include <boost/smart_ptr.hpp>
 #include <vector>
@@ -277,3 +277,4 @@ RDKIT_CHEMTRANSFORMS_EXPORT void copyStereoGroups(
 
 }  // namespace RDKit
 #endif
+

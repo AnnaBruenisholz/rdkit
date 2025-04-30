@@ -11,7 +11,7 @@
 #ifndef RD_QUERY_H
 #define RD_QUERY_H
 
-#ifdef MSCVER
+#ifdef _MSC_VER
 #pragma warning(disable : 4800)  // warning: converting things to bool
 #endif
 
@@ -208,3 +208,4 @@ int queryCmp(const T1 v1, const T2 v2, const T1 tol) {
 };
 }  // namespace Queries
 #endif
+

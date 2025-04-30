@@ -16,8 +16,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef _RD_ATOMIC_DATAH
-#define _RD_ATOMIC_DATAH
+#ifndef _RD_ATOMIC_DATA_H
+#define _RD_ATOMIC_DATA_H
 
 #include <RDGeneral/types.h>
 #include <map>
@@ -80,3 +80,4 @@ class RDKIT_GRAPHMOL_EXPORT atomicData {
 };
 };  // namespace RDKit
 #endif
+

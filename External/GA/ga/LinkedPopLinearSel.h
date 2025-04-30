@@ -128,7 +128,7 @@ LinkedPopLinearSel<Chromosome, PopulationPolicy>::LinkedPopLinearSel(
       (((2.0 * totalScaledFitness) / popsize) - (2.0 * SELECT_START)) /
       (popsize - 1);
 
-#ifdef _clang_
+#ifdef __clang__
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-but-set-variable"
 #endif
@@ -143,7 +143,7 @@ LinkedPopLinearSel<Chromosome, PopulationPolicy>::LinkedPopLinearSel(
                           << predictTotalScaledFitness;
 #endif
   assert(std::abs(totalScaledFitness - predictTotalScaledFitness) < 1.0e-5);
-#ifdef _clang_
+#ifdef __clang__
 #pragma GCC diagnostic pop
 #endif
 
@@ -456,3 +456,4 @@ LinkedPopLinearSel<Chromosome, PopulationPolicy>::findExactMatch(
 }  // namespace GapeGa
 
 #endif /* LINKEDPOPLINEARSEL_H_ */
+

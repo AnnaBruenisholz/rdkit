@@ -18,7 +18,7 @@
 #ifndef RD_ATOM_ITERATORS_H
 #define RD_ATOM_ITERATORS_H
 
-#ifdef MSCVER
+#ifdef _MSC_VER
 #pragma warning(disable : 4661)  // no suitable definition provided for explicit
                                  // template instantiation request
 #endif
@@ -210,3 +210,4 @@ class RDKIT_GRAPHMOL_EXPORT MatchingAtomIterator_ {
 }  // namespace RDKit
 
 #endif
+

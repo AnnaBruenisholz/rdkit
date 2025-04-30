@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RDCHEM_INCL
-#define RDCHEM_INCL
+#ifndef RD_CHEM_INCL
+#define RD_CHEM_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdchem_array_API
 
@@ -19,3 +19,4 @@ class ConformerException;
 void rdExceptionTranslator(RDKit::ConformerException const &x);
 
 #endif
+

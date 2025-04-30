@@ -7,7 +7,7 @@
 //  which is included in the file license.txt, found at the root
 //  of the RDKit source tree.
 //
-#ifdef MSCVER
+#ifdef _MSC_VER
 #pragma warning(disable : 4503)
 #endif
 

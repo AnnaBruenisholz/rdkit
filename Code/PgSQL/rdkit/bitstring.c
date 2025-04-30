@@ -33,7 +33,7 @@
 
 #ifdef RDK_OPTIMIZE_POPCNT
 
-#ifdef MSCVER
+#ifdef _MSC_VER
 #include <intrin.h>
 #define POPCNT __popcnt
 typedef unsigned int POPCNT_TYPE;
@@ -495,7 +495,7 @@ int bitstringGrayCmp(int length, uint8 *bstr1, uint8 *bstr2) {
    *
    * In contrast to the usual representation of binary numbers,
    * the code is not just positional.
-   * 
+   *
    * When we start from the leftmost position, 1 > 0. In moving
    * to right, every time a pair of 1s is found, it means the
    * remaining parts of the codes resulted from a reflection, and
@@ -535,3 +535,4 @@ int bitstringGrayCmp(int length, uint8 *bstr1, uint8 *bstr2) {
   /* same bfp value */
   return 0;
 }
+

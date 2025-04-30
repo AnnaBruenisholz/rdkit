@@ -22,7 +22,7 @@
 
 #include <boost/lexical_cast.hpp>
 
-#if MSCVER
+#if _MSC_VER_
 #include <intrin.h>
 #endif
 
@@ -896,7 +896,7 @@ template RDKIT_DATASTRUCTS_EXPORT void UpdateBitVectFromBinaryText(
 // from here:
 // http://stackoverflow.com/questions/3849337/msvc-equivalent-to-builtin-popcount
 // but corrected to get the ifdef right
-#ifdef MSCVER
+#ifdef _MSC_VER_
 #include <intrin.h>
 #ifdef _WIN64
 #define BUILTIN_POPCOUNT_INSTR __popcnt64

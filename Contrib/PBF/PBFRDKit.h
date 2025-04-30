@@ -43,8 +43,8 @@
 //
 // Created by Nicholas Firth, November 2011
 
-#ifndef PBFRDKith
-#define PBFRDKith
+#ifndef RD_PBF_H
+#define RD_PBF_H
 
 #include <iostream>
 
@@ -58,3 +58,4 @@ using namespace RDKit;
 double PBFRD(ROMol&, int confId = -1);
 
 #endif
+

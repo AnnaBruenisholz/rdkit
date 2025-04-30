@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_GASTEIGERCHARGESH
-#define RD_GASTEIGERCHARGESH
+#ifndef RD_GASTEIGERCHARGES_H
+#define RD_GASTEIGERCHARGES_H
 
 #include <vector>
 
@@ -25,3 +25,4 @@ RDKIT_PARTIALCHARGES_EXPORT void computeGasteigerCharges(
 }  // namespace RDKit
 
 #endif
+

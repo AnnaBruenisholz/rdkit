@@ -29,8 +29,8 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_LOCALESWITCHERH
-#define RD_LOCALESWITCHERH
+#ifndef RD_LOCALESWITCHER_H
+#define RD_LOCALESWITCHER_H
 
 namespace RDKit {
 namespace Utils {
@@ -52,3 +52,4 @@ class RDKIT_RDGENERAL_EXPORT LocaleSwitcher {
 }  // namespace RDKit
 
 #endif
+

@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef GRID3D_H_200501241113
-#define GRID3D_H_200501241113
+#ifndef RD_GRID3D_H_200501241113
+#define RD_GRID3D_H_200501241113
 #include <exception>
 #include <string>
 #include <utility>
@@ -52,3 +52,4 @@ class RDKIT_RDGEOMETRYLIB_EXPORT Grid3D {
 }  // namespace RDGeom
 
 #endif
+

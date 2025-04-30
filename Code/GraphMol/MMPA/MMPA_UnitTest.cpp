@@ -30,7 +30,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
-#ifndef MSCVER
+#ifndef _MSC_VER
 #include <RDGeneral/test.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -67,7 +67,7 @@ static unsigned n_failed = 0;
 static unsigned long long T0;
 static unsigned long long t0;
 
-#ifdef MSCVER
+#ifdef _MSC_VER
 #define DELTA_EPOCH_IN_MICROSECS 11644473600000000ULL
 
 struct timezone {

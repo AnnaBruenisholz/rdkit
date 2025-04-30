@@ -8,9 +8,10 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RDMOLFILES_INCL
-#define RDMOLFILES_INCL
+#ifndef RD_MOLFILES_INCL
+#define RD_MOLFILES_INCL
 
 #define PY_ARRAY_UNIQUE_SYMBOL rdmolfile_array_API
 
 #endif
+

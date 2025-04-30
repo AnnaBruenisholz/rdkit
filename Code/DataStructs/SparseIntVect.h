@@ -63,7 +63,7 @@ class SparseIntVect {
   //! destructor (doesn't need to do anything)
   ~SparseIntVect() = default;
 
-#ifdef _clang_
+#ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wtautological-compare"
 #elif (defined(__GNUC__) || defined(__GNUG__)) && \
@@ -97,7 +97,7 @@ class SparseIntVect {
       d_data.erase(idx);
     }
   }
-#ifdef _clang_
+#ifdef __clang__
 #pragma clang diagnostic pop
 #elif (defined(__GNUC__) || defined(__GNUG__)) && \
     (__GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ > 5))
@@ -576,3 +576,4 @@ double TanimotoSimilarity(const SparseIntVect<IndexType> &v1,
 }  // namespace RDKit
 
 #endif
+

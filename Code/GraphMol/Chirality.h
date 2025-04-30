@@ -116,7 +116,7 @@ enum class StereoSpecified {
 
 struct RDKIT_GRAPHMOL_EXPORT StereoInfo {
   // REVIEW: absolute stereo data member?
-#ifdef MSCVER
+#ifdef _MSC_VER
   static const unsigned NOATOM =
       std::numeric_limits<unsigned>::max();  // used to mark missing atoms
 #else
@@ -427,3 +427,4 @@ findMesoCenters(const ROMol &mol, bool includeIsotopes = true,
 }  // namespace Chirality
 }  // namespace RDKit
 #endif
+

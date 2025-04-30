@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_EXCEPTIONSH
-#define RD_EXCEPTIONSH
+#ifndef RD_EXCEPTIONS_H
+#define RD_EXCEPTIONS_H
 #include <stdexcept>
 #include <string>
 #include <utility>
@@ -71,3 +71,4 @@ class RDKIT_RDGENERAL_EXPORT KeyErrorException : public std::runtime_error {
 };
 
 #endif
+

@@ -281,7 +281,7 @@ typedef short yytype_int16;
 #endif
 
 #ifndef YYSIZE_T
-#ifdef _SIZE_TYPE_
+#ifdef __SIZE_TYPE__
 #define YYSIZE_T __SIZE_TYPE__
 #elif defined size_t
 #define YYSIZE_T size_t
@@ -365,7 +365,7 @@ typedef short yytype_int16;
 
 #ifdef YYSTACK_USE_ALLOCA
 #if YYSTACK_USE_ALLOCA
-#ifdef _GNUC_
+#ifdef __GNUC__
 #define YYSTACK_ALLOC __builtin_alloca
 #elif defined __BUILTIN_VA_ARG_INCR
 #include <alloca.h> /* INFRINGES ON USER NAME SPACE */

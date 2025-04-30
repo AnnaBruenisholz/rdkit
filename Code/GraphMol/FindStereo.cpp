@@ -21,7 +21,7 @@
 
 namespace RDKit {
 namespace Chirality {
-#ifndef MSCVER
+#ifndef _MSC_VER
 const unsigned StereoInfo::NOATOM = std::numeric_limits<unsigned>::max();
 #endif
 namespace detail {

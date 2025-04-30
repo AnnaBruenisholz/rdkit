@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_DISTPICKERH
-#define RD_DISTPICKERH
+#ifndef RD_DISTPICKER_H
+#define RD_DISTPICKER_H
 
 #include <RDGeneral/types.h>
 
@@ -90,3 +90,4 @@ class distmatFunctor {
 };  // namespace RDPickers
 
 #endif
+

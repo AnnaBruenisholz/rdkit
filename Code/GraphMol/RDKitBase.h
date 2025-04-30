@@ -15,8 +15,8 @@
 */
 
 #include <RDGeneral/export.h>
-#ifndef RDKIT_BASEH
-#define RDKIT_BASEH
+#ifndef RDKIT_BASE_H
+#define RDKIT_BASE_H
 
 #include <RDGeneral/Invariant.h>
 
@@ -33,3 +33,4 @@
 #include <GraphMol/StereoGroup.h>
 
 #endif
+

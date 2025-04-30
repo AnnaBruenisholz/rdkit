@@ -14,8 +14,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef RDKIT_QUERIESH
-#define RDKIT_QUERIESH
+#ifndef RDKIT_QUERIES_H
+#define RDKIT_QUERIES_H
 
 #include <Query/QueryObjects.h>
 #include <GraphMol/QueryAtom.h>
@@ -23,3 +23,4 @@
 #include <GraphMol/QueryOps.h>
 
 #endif
+

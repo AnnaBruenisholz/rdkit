@@ -8,9 +8,9 @@
 //  of the RDKit source tree.
 //
 
-#ifdef MSCVER
+#ifdef _MSC_VER
 // disable warnings about getenv in visual C++
-#define CRT_SECURE_NOWARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #endif
 
 #include <RDGeneral/test.h>

@@ -8,7 +8,7 @@
 /* BSD license, which is included in the file                      */
 /* license.txt.                                                    */
 /*=================================================================*/
-#define USE_MATHDEFINES
+#define _USE_MATH_DEFINES
 
 #include <iostream>
 #include <limits>

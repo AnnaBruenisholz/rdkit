@@ -31,8 +31,8 @@
 //
 
 #include <RDGeneral/export.h>
-#ifndef _RD_REACTION_UTILSH
-#define _RD_REACTION_UTILSH
+#ifndef RD_REACTION_UTILSH
+#define RD_REACTION_UTILSH
 
 #include <GraphMol/ChemReactions/Reaction.h>
 
@@ -72,3 +72,4 @@ RDKIT_CHEMREACTIONS_EXPORT void removeMappingNumbersFromReactions(
 }  // namespace RDKit
 
 #endif
+

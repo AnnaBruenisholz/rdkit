@@ -14,8 +14,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef RD_SGROUPH
-#define RD_SGROUPH
+#ifndef RD_SGROUP_H
+#define RD_SGROUP_H
 
 #include <iostream>
 #include <utility>
@@ -300,3 +300,4 @@ RDKIT_GRAPHMOL_EXPORT void removeSubstanceGroupsReferencingBond(
 RDKIT_GRAPHMOL_EXPORT std::ostream &operator<<(std::ostream &target,
                                                const RDKit::SubstanceGroup &sg);
 #endif
+

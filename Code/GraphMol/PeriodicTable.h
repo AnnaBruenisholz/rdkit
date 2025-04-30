@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_PERIODIC_TABLEH
-#define RD_PERIODIC_TABLEH
+#ifndef RD_PERIODIC_TABLE_H
+#define RD_PERIODIC_TABLE_H
 
 #include <map>
 #include <vector>
@@ -347,3 +347,4 @@ class RDKIT_GRAPHMOL_EXPORT PeriodicTable {
 };  // namespace RDKit
 
 #endif
+

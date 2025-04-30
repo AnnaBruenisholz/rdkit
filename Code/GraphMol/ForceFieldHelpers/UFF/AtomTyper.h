@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_UFFATOMTYPER_H_
-#define RD_UFFATOMTYPER_H_
+#ifndef RD_UFFATOMTYPER_H
+#define RD_UFFATOMTYPER_H
 
 #include <vector>
 #include <string>
@@ -55,3 +55,4 @@ RDKIT_FORCEFIELDHELPERS_EXPORT std::string getAtomLabel(const Atom *atom);
 }  // namespace RDKit
 
 #endif
+

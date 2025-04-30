@@ -239,7 +239,7 @@ typedef enum yysymbol_kind_t yysymbol_kind_t;
    <limits.h> and (if available) <stdint.h> are included
    so that the code can choose integer types of a good width.  */
 
-#ifndef _PTRDIFF_MAX_
+#ifndef __PTRDIFF_MAX__
 # include <limits.h> /* INFRINGES ON USER NAME SPACE */
 # if defined __STDC_VERSION__ && 199901 <= __STDC_VERSION__
 #  include <stdint.h> /* INFRINGES ON USER NAME SPACE */
@@ -252,7 +252,7 @@ typedef enum yysymbol_kind_t yysymbol_kind_t;
    save space and decrease cache pressure.  Promoting to a signed type
    helps avoid bugs in integer arithmetic.  */
 
-#ifdef _INT_LEAST8_MAX_
+#ifdef __INT_LEAST8_MAX__
 typedef __INT_LEAST8_TYPE__ yytype_int8;
 #elif defined YY_STDINT_H
 typedef int_least8_t yytype_int8;
@@ -260,7 +260,7 @@ typedef int_least8_t yytype_int8;
 typedef signed char yytype_int8;
 #endif
 
-#ifdef _INT_LEAST16_MAX_
+#ifdef __INT_LEAST16_MAX__
 typedef __INT_LEAST16_TYPE__ yytype_int16;
 #elif defined YY_STDINT_H
 typedef int_least16_t yytype_int16;

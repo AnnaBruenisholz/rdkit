@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_QUERYBONDH
-#define RD_QUERYBONDH
+#ifndef RD_QUERYBOND_H
+#define RD_QUERYBOND_H
 
 #include <Query/QueryObjects.h>
 #include "Bond.h"
@@ -144,3 +144,4 @@ inline std::string describeQuery(const Bond *bond) {
 };  // namespace RDKit
 
 #endif
+

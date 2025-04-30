@@ -8,7 +8,7 @@
 //  of the RDKit source tree.
 //
 #pragma once
-#ifdef _GNUC_
+#ifdef __GNUC__
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
@@ -65,7 +65,7 @@
 #include <atomic>
 #endif
 
-#ifndef MSCVER
+#ifndef _MSC_VER
 // shutoff some warnings from rapidjson
 #if !defined(__clang__) && defined(__GNUC__)
 #pragma GCC diagnostic push
@@ -75,7 +75,7 @@
 #include <rapidjson/document.h>
 #include <rapidjson/stringbuffer.h>
 #include <rapidjson/writer.h>
-#ifndef MSCVER
+#ifndef _MSC_VER
 #if !defined(__clang__) && defined(__GNUC__)
 #pragma GCC diagnostic pop
 #endif
@@ -1365,3 +1365,4 @@ class LogHandle {
 }  // namespace RDKit
 #undef LPT_OPT_GET
 #undef LPT_OPT_GET2
+

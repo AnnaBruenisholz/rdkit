@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_GASTEIGERPARAMSH
-#define RD_GASTEIGERPARAMSH
+#ifndef RD_GASTEIGERPARAMS_H
+#define RD_GASTEIGERPARAMS_H
 
 #include <RDGeneral/types.h>
 #include <RDGeneral/Exceptions.h>
@@ -84,3 +84,4 @@ class RDKIT_PARTIALCHARGES_EXPORT GasteigerParams {
 };  // namespace RDKit
 
 #endif
+

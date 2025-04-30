@@ -9,7 +9,7 @@
 //
 #if defined(__CYGWIN__) && !defined(_GNU_SOURCE)
 // -std=c++11 doesn't declare strtok_r
-#define GNUSOURCE
+#define _GNU_SOURCE
 #endif
 
 #include <cstring>

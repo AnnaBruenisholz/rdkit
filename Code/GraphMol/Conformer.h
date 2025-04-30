@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_CONFORMERH
-#define RD_CONFORMERH
+#ifndef RD_CONFORMER_H
+#define RD_CONFORMER_H
 
 #include <Geometry/point.h>
 #include <RDGeneral/types.h>
@@ -176,3 +176,4 @@ inline bool hasNonZeroZCoords(const Conformer &conf) {
 }  // namespace RDKit
 
 #endif
+

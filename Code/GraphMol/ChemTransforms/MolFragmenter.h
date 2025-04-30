@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_MOLFRAGMENTER_H_
-#define RD_MOLFRAGMENTER_H_
+#ifndef RD_MOLFRAGMENTER_H
+#define RD_MOLFRAGMENTER_H
 
 #include <istream>
 #include <GraphMol/ROMol.h>
@@ -163,3 +163,4 @@ RDKIT_CHEMTRANSFORMS_EXPORT std::unique_ptr<ROMol> molzip(
 
 }  // namespace RDKit
 #endif
+

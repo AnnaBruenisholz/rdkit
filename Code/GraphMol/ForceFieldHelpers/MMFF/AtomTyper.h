@@ -10,8 +10,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef RD_MMFFATOMTYPER_H_
-#define RD_MMFFATOMTYPER_H_
+#ifndef RD_MMFFATOMTYPER_H
+#define RD_MMFFATOMTYPER_H
 
 #include <vector>
 #include <string>
@@ -233,3 +233,4 @@ getMMFFAngleBendEmpiricalRuleParams(
 }  // namespace RDKit
 
 #endif
+
