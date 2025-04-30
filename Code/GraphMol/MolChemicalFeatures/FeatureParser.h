@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef FEATUREPARSER_H_02122004_1810
-#define FEATUREPARSER_H_02122004_1810
+#ifndef RD_FEATUREPARSER_H_02122004_1810
+#define RD_FEATUREPARSER_H_02122004_1810
 
 #include <iostream>
 #include <string>
@@ -56,3 +56,4 @@ RDKIT_MOLCHEMICALFEATURES_EXPORT MolChemicalFeatureDef *parseFeatureDef(
 }  // namespace Local
 }  // end of namespace RDKit
 #endif
+

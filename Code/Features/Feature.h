@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef FEATURE_H_30112004_1121
-#define FEATURE_H_30112004_1121
+#ifndef RD_FEATURE_H_30112004_1121
+#define RD_FEATURE_H_30112004_1121
 
 #include <vector>
 #include <Geometry/point.h>
@@ -94,3 +94,4 @@ class ImplicitFeature {
 };
 }  // namespace RDFeatures
 #endif
+

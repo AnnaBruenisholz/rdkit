@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef MOLCHEMICALFEATURE_H_11012005_1404
-#define MOLCHEMICALFEATURE_H_11012005_1404
+#ifndef RD_MOLCHEMICALFEATURE_H_11012005_1404
+#define RD_MOLCHEMICALFEATURE_H_11012005_1404
 
 #include <string>
 #include <vector>
@@ -96,3 +96,4 @@ class RDKIT_MOLCHEMICALFEATURES_EXPORT MolChemicalFeature
 }  // namespace RDKit
 
 #endif
+

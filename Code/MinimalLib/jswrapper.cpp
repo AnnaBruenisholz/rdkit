@@ -530,7 +530,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
                                &JSMolBase::get_svg))
 
       .function("get_svg_with_highlights", &JSMolBase::get_svg_with_highlights)
-#ifdef EMSCRIPTEN
+#ifdef RD_EMSCRIPTEN
       .function("draw_to_canvas_with_offset", &draw_to_canvas_with_offset)
       .function("draw_to_canvas", &draw_to_canvas)
       .function("draw_to_canvas_with_highlights",
@@ -717,7 +717,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
 
 #ifdef RDK_BUILD_MINIMAL_LIB_RXN
   class_<JSReaction>("Reaction")
-#ifdef EMSCRIPTEN
+#ifdef RD_EMSCRIPTEN
       .function("run_reactants", select_overload<std::vector<JSMolList *>(
                                      const JSMolList &, unsigned int) const>(
                                      &JSReaction::run_reactants))
@@ -743,7 +743,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
       .function("add_smiles", &JSSubstructLibrary::add_smiles)
       .function("add_trusted_smiles", &JSSubstructLibrary::add_trusted_smiles)
       .function("get_trusted_smiles", &JSSubstructLibrary::get_trusted_smiles)
-#ifdef EMSCRIPTEN
+#ifdef RD_EMSCRIPTEN
       .function("add_trusted_smiles_and_pattern_fp",
                 select_overload<int(JSSubstructLibrary &, const std::string &,
                                     const val &)>(
@@ -824,7 +824,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
   function("get_mcs_as_smarts", &get_mcs_as_smarts);
   function("get_mcs_as_smarts", &get_mcs_as_smarts_no_details);
 #endif
-#if defined(RDK_BUILD_MINIMAL_LIB_RGROUPDECOMP) && defined(__EMSCRIPTEN__)
+#if defined(RDK_BUILD_MINIMAL_LIB_RGROUPDECOMP) && defined(RD_EMSCRIPTEN)
   class_<JSRGroupDecomposition>("RGroupDecomposition")
       .function("add", &JSRGroupDecomposition::add)
       .function("process", &JSRGroupDecomposition::process)
@@ -839,7 +839,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
   function("get_rgd", &get_rgd_helper, allow_raw_pointers());
   function("get_rgd", &get_rgd_no_details_helper, allow_raw_pointers());
 #endif
-#if defined(RDK_BUILD_MINIMAL_LIB_MOLZIP) && defined(__EMSCRIPTEN__)
+#if defined(RDK_BUILD_MINIMAL_LIB_MOLZIP) && defined(RD_EMSCRIPTEN)
   function("molzip", &::molzip, allow_raw_pointers());
 #ifdef RDK_BUILD_MINIMAL_LIB_RGROUPDECOMP
   function("molzip", &molzip_2params_helper, allow_raw_pointers());

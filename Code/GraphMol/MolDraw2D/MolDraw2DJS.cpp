@@ -9,7 +9,7 @@
 //
 //
 
-#ifdef EMSCRIPTEN
+#ifdef RD_EMSCRIPTEN
 
 #include <GraphMol/MolDraw2D/MolDraw2DJS.h>
 #include <GraphMol/MolDraw2D/MolDraw2DDetails.h>

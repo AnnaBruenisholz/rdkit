@@ -281,7 +281,7 @@ typedef short yytype_int16;
 #endif
 
 #ifndef YYSIZE_T
-#ifdef SIZE_TYPE
+#ifdef __SIZE_TYPE__
 #define YYSIZE_T __SIZE_TYPE__
 #elif defined size_t
 #define YYSIZE_T size_t

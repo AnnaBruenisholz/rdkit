@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef FREECHEMICALFEATURE_H_13012005_1023
-#define FREECHEMICALFEATURE_H_13012005_1023
+#ifndef RD_FREECHEMICALFEATURE_H_13012005_1023
+#define RD_FREECHEMICALFEATURE_H_13012005_1023
 
 #include <utility>
 
@@ -95,3 +95,4 @@ class RDKIT_CHEMICALFEATURES_EXPORT FreeChemicalFeature
 }  // namespace ChemicalFeatures
 
 #endif
+

@@ -2,8 +2,8 @@
 //
 // Created by Greg Landrum, July 2008
 //
-#ifndef AVALONTOOLS_H
-#define AVALONTOOLS_H
+#ifndef RD_AVALONTOOLS_H
+#define RD_AVALONTOOLS_H
 #include <string>
 
 #include <RDGeneral/export.h>
@@ -74,3 +74,4 @@ RDKIT_AVALONLIB_EXPORT std::string getCheckMolLog();
 RDKIT_AVALONLIB_EXPORT void closeCheckMolFiles();
 }  // namespace AvalonTools
 #endif
+

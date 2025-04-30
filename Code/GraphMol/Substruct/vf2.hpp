@@ -15,8 +15,8 @@
 #include <algorithm>
 #include <cstring>
 
-#ifndef BGL_VF2_SUB_STATE_H
-#define BGL_VF2_SUB_STATE_H
+#ifndef RD_BGL_VF2_SUB_STATE_H
+#define RD_BGL_VF2_SUB_STATE_H
 //#define RDK_VF2_PRUNING
 #define RDK_ADJ_ITER typename Graph::adjacency_iterator
 
@@ -275,12 +275,12 @@ class VF2SubState {
     std::cerr<<"in_1 ";
     for(unsigned int i=0;i<n1;++i){
       std::cerr<<"("<<in_1[i]<<","<<out_1[i]<<"), ";
-    } 
+    }
     std::cerr<<std::endl;
     std::cerr<<"in_2 ";
     for(unsigned int i=0;i<n2;++i){
       std::cerr<<"("<<in_2[i]<<","<<out_2[i]<<"), ";
-    } 
+    }
     std::cerr<<std::endl;
 #endif
     if (t1_len > core_len && t2_len > core_len) {

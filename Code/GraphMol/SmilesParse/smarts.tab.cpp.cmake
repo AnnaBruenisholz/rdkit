@@ -239,7 +239,7 @@ typedef enum yysymbol_kind_t yysymbol_kind_t;
    <limits.h> and (if available) <stdint.h> are included
    so that the code can choose integer types of a good width.  */
 
-#ifndef PTRDIFF_MAX
+#ifndef __PTRDIFF_MAX__
 # include <limits.h> /* INFRINGES ON USER NAME SPACE */
 # if defined __STDC_VERSION__ && 199901 <= __STDC_VERSION__
 #  include <stdint.h> /* INFRINGES ON USER NAME SPACE */
@@ -252,7 +252,7 @@ typedef enum yysymbol_kind_t yysymbol_kind_t;
    save space and decrease cache pressure.  Promoting to a signed type
    helps avoid bugs in integer arithmetic.  */
 
-#ifdef INT_LEAST8_MAX
+#ifdef __INT_LEAST8_MAX__
 typedef __INT_LEAST8_TYPE__ yytype_int8;
 #elif defined YY_STDINT_H
 typedef int_least8_t yytype_int8;
@@ -260,7 +260,7 @@ typedef int_least8_t yytype_int8;
 typedef signed char yytype_int8;
 #endif
 
-#ifdef INT_LEAST16_MAX
+#ifdef __INT_LEAST16_MAX__
 typedef __INT_LEAST16_TYPE__ yytype_int16;
 #elif defined YY_STDINT_H
 typedef int_least16_t yytype_int16;
@@ -2542,8 +2542,8 @@ yyreduce:
 
   case 118: /* nonzero_number: nonzero_number digit  */
 #line 769 "smarts.yy"
-                       { 
-    if((yyvsp[-1].ival) >= std::numeric_limits<std::int32_t>::max()/10 || 
+                       {
+    if((yyvsp[-1].ival) >= std::numeric_limits<std::int32_t>::max()/10 ||
      (yyvsp[-1].ival)*10 >= std::numeric_limits<std::int32_t>::max()-(yyvsp[0].ival) ){
      yysmarts_error(input,molList,lastAtom,lastBond,numAtomsParsed,numBondsParsed,branchPoints,scanner,start_token,"number too large");
      YYABORT;
@@ -2747,4 +2747,3 @@ yyreturnlab:
 }
 
 #line 782 "smarts.yy"
-

@@ -46,7 +46,7 @@
 #pragma GCC diagnostic ignored "-Wreorder"
 #pragma GCC diagnostic ignored "-Wunused"
 #if defined(__apple_build_version__)
-#if apple_build_version >= 7000072
+#if __apple_build_version__ >= 7000072
 #pragma GCC diagnostic ignored "-Wunused-local-typedef"
 #endif
 #endif
@@ -94,3 +94,4 @@
 #define RDK_ALLOW_BOOST_DEPRECATED_HEADERS
 #define BOOST_ALLOW_DEPRECATED_HEADERS
 #endif
+

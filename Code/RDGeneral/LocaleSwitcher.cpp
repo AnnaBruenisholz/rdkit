@@ -38,10 +38,10 @@
 
 // LocaleSwitcher Dependencies
 #include <clocale>
-#ifdef APPLE
+#ifdef __APPLE__
 #include <xlocale.h>
 #endif
-#ifdef CYGWIN
+#ifdef __CYGWIN__
 #include <locale.h>
 #endif
 #ifdef RDK_BUILD_THREADSAFE_SSS

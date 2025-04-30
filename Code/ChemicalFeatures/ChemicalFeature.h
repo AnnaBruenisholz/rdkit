@@ -8,8 +8,8 @@
 //  of the RDKit source tree.
 //
 #include <RDGeneral/export.h>
-#ifndef CHEMICALFEATURE_H_11012005_1310
-#define CHEMICALFEATURE_H_11012005_1310
+#ifndef RD_CHEMICALFEATURE_H_11012005_1310
+#define RD_CHEMICALFEATURE_H_11012005_1310
 
 #include <Geometry/point.h>
 namespace ChemicalFeatures {
@@ -36,3 +36,4 @@ class ChemicalFeature {
 }  // namespace ChemicalFeatures
 
 #endif
+

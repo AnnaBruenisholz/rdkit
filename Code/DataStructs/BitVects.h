@@ -13,8 +13,8 @@
 
 */
 #include <RDGeneral/export.h>
-#ifndef BITVECTS_H
-#define BITVECTS_H
+#ifndef RD_BITVECTS_H
+#define RD_BITVECTS_H
 
 #include "BitVect.h"
 #include "ExplicitBitVect.h"
@@ -23,3 +23,4 @@ typedef SparseBitVect SBV;
 typedef ExplicitBitVect EBV;
 
 #endif
+

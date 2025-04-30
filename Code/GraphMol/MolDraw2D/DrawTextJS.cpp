@@ -10,7 +10,7 @@
 // Original author: Greg Landrum
 // A concrete class derived from DrawText that uses the JS Canvas
 // to draw text onto a picture.
-#ifdef EMSCRIPTEN
+#ifdef RD_EMSCRIPTEN
 #include <sstream>
 #include <RDGeneral/BoostStartInclude.h>
 #include <boost/algorithm/string.hpp>
